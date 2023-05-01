@@ -10,6 +10,8 @@ To run the poll governance subcommands, a version 8.x.x or higher of cardano-cli
 Please note that version 8 as successor of the previous v1.35.x codebase has undergone an extensive revision. So the build process on your system may be a bit different than you were used to. 
 We provide a [build script](scripts/build_CCLI8.sh) here, which was tested on Linux/Ubuntu, and should serve you as a help. If it does not run successfully on your system, please try to find the adjustments for your system using the steps that are already given there. 
 
+### Download the build script:
+
 ```bash
 mkdir "$HOME/tmp";cd "$HOME/tmp"
 # Install curl
@@ -19,7 +21,10 @@ curl -sS -o build_CCLI8.sh https://raw.githubusercontent.com/cardano-foundation/
 chmod 755 build_CCLI8.sh
 ```
 
+### Execute the build script
 Now execute `./build_CCLI8.sh`. The script will explain each step it will do. Confirm with [Enter] or abort the script if something doesn't seem right.
+
+The output should look like this:
 
 ```
 Local repository check: OK
@@ -73,6 +78,8 @@ With the current v8 version of cardano-cli installed, the following steps are du
 5) send it to the network
 
 As a last step, the previous build script should have downloaded a second [script getPoll.sh](scripts/getPoll.sh). You can now run this as a helper script for the above steps, or use it as a guide to perform the steps yourself if your system is set up differently and is incompatible with this helper script.
+
+Running `./getPoll.sh` should give you something like this:
 
 ```
 Using /home/user/.local/bin/CIP-0094/cardano-cli version 8.0.0 ...
