@@ -129,4 +129,4 @@ Now there are steps 4 and 5 left: create a transaction with this metadata json f
 
 ## Existing SPO polls
 
-- PreProd Test Run ([d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2](networks/preprod/d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2/README.md))  May 2023
+- PreProd Test Run ([d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2](networks/preprod/d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2/))  May 2023
