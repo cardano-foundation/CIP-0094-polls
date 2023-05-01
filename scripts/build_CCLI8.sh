@@ -74,6 +74,6 @@ ${HOME}/.local/bin/CIP-0094/cardano-cli --version
 echo ""
 echo "It's time to download getPoll.sh (helper script to participate to polls)"
 read -p "Press [Enter] to continue ..."
-curl -s -o getPoll.sh GET "https://raw.githubusercontent.com/cardano-foundation/CIP-0049-polls/main/scripts/getPoll.sh"
+curl -s -o getPoll.sh "https://raw.githubusercontent.com/cardano-foundation/CIP-0049-polls/main/scripts/getPoll.sh"
 chmod 755 getPoll.sh
 echo "ready to run ./getPoll.sh"
