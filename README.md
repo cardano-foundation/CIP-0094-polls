@@ -1,4 +1,4 @@
-# CIP-0049 polls
+# CIP-0094 polls
 
 This repository contains instructions and data for participating in SPO polls as proposed and defined in [CIP-0094](https://github.com/cardano-foundation/CIPs/tree/cip-spo-polls/CIP-0094) and announced in this [forum post](https://forum.cardano.org/t/entering-voltaire-on-chain-poll-for-spos/117330)
 
