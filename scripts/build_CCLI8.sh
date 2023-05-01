@@ -64,7 +64,7 @@ echo ""
 echo "restore the previous cabal.project.local file ..."
 read -p "Press [Enter] to continue ..."
 mv cabal.project.local.bkp_${targetTag} cabal.project.local
-#[[ "$ccli8Found" = false ]] && exit;
+cd -
 
 echo ""
 echo "Now we should have a new cardano-cli based on the ${targetTag} codebase"
