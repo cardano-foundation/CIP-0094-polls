@@ -15,6 +15,13 @@ To run the poll governance subcommands, a version of cardano-cli with governance
 Please note that version 8 as successor of the previous v1.35.x codebase has undergone an extensive revision. So the build process on your system may be a bit different than you were used to. 
 We provide a [build script](scripts/build_CCLI8.sh) here, which was tested on Linux/Ubuntu, and should serve you as a help. If it does not run successfully on your system, please try to find the adjustments for your system using the steps that are already given there. 
 
+**Build requirements**
+
+The cabal and ghc binaries should be versions known to work for compiling cardano-node. If you do not normally compile your own cardano-node the following versions are known to work.
+
+* cabal 3.6.2.0
+* ghc 8.10.7
+
 **Download the v8 build script:**
 
 ```bash
