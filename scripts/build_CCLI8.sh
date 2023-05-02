@@ -41,6 +41,9 @@ echo " flags: -external-libsodium-vrf" >> cabal.project.local
 echo ""
 echo "Now let's build and install cardano-cli ..." 
 read -p "Press [Enter] to continue ..."
+
+mkdir -p ${HOME}/.local/bin/CIP-0094
+
 cabal install \
   --installdir ${HOME}/.local/bin/CIP-0094 \
   --install-method=copy \
