@@ -5,12 +5,17 @@ This repository contains instructions and data for participating in SPO polls as
 Note: We will add to and improve this guidance and information in the first half of May as part of the PreProd test run.
 
 ## System preparation
-To run the poll governance subcommands, a version 8.x.x or higher of cardano-cli from the [input-output-hk/cardano-node](https://github.com/input-output-hk/cardano-node) repository is required (look for tag [8.0.0-untested](https://github.com/input-output-hk/cardano-node/releases/tag/8.0.0-untested) or higher). 
+To run the poll governance subcommands, a version of cardano-cli with governance poll subcommand support is required. There are a couple of options for you: 
 
+1) Checkout and build [8.0.0-untested](https://github.com/input-output-hk/cardano-node/releases/tag/8.0.0-untested) (or higher) from the [input-output-hk/cardano-node](https://github.com/input-output-hk/cardano-node) repository. 
+2) Checkout and build [release/1.35](https://github.com/CardanoSolutions/cardano-node/tree/release/1.35) from the [cardanosolutions/cardano-node](https://github.com/CardanoSolutionsCardanoSolutions/cardano-node) repository.
+3) Download pre-built binaries, for a standard Linux system
+
+### 1) Build cardano-cli v8
 Please note that version 8 as successor of the previous v1.35.x codebase has undergone an extensive revision. So the build process on your system may be a bit different than you were used to. 
 We provide a [build script](scripts/build_CCLI8.sh) here, which was tested on Linux/Ubuntu, and should serve you as a help. If it does not run successfully on your system, please try to find the adjustments for your system using the steps that are already given there. 
 
-### Download the build script:
+**Download the v8 build script:**
 
 ```bash
 mkdir "$HOME/tmp";cd "$HOME/tmp"
@@ -21,51 +26,32 @@ curl -sS -o build_CCLI8.sh https://raw.githubusercontent.com/cardano-foundation/
 chmod 755 build_CCLI8.sh
 ```
 
-### Execute the build script
-Now execute `./build_CCLI8.sh`. The script will explain each step it will do. Confirm with [Enter] or abort the script if something doesn't seem right.
+**Execute the build script**
 
-The output should look like this:
+Now execute `./build_CCLI8.sh`. The script will explain each step it will do. Confirm with [Enter] or abort the script if something doesn't seem right. It is designed to rely on an existing local clone of IOG's cardano-node repository on your computer. If successfull it will not overwrite your existing cardano-cli but instead save it into a dedicated subfolder. 
 
+### 2) Build cardano-cli 1.35.7 with governance poll support
+
+@Ktorz has implemented the governance poll extension also merged in IOG's 8.0.0 codebase. If you prefer building a cardano-cli from the 1.35 codebase there is a repository you can clone to build your 1.35.7 with the governance poll subcommands included. 
+
+**Download the v1.35 build script:**
+
+```bash
+mkdir "$HOME/tmp";cd "$HOME/tmp"
+# Install curl
+# CentOS / RedHat - sudo dnf -y install curl
+# Ubuntu / Debian - sudo apt -y install curl
+curl -sS -o build_CCLI8.sh https://raw.githubusercontent.com/cardano-foundation/CIP-0049-polls/main/scripts/build_CCLI135.sh
+chmod 755 build_CCLI8.sh
 ```
-Local repository check: OK
-(assuming you git clone'd https://github.com/input-output-hk/cardano-node.git into it)
 
-Let's checkout 8.0.0-untested tag ...
-Press [Enter] to continue ...
-Fetching origin
-remote: Enumerating objects: 20, done.
-remote: Counting objects: 100% (20/20), done.
-...
-...
-HEAD is now at ...  Merge pull request ...
+**Execute the build script**
 
-backup an existing cabal.project.local to cabal.project.local.bkp_8.0.0-untested ...
-Press [Enter] to continue ...
+Now execute `./build_CCLI135.sh`. The script will explain each step it will do. Confirm with [Enter] or abort the script if something doesn't seem right. It is designed to clone a new local copy and build the executable from it. If successfull it will not overwrite your existing cardano-cli but instead save it into a dedicated subfolder. 
 
-prepare cabal to build 8.0.0-untested codebase ...
-Press [Enter] to continue ...
-Downloading the latest package lists from:
-- hackage.haskell.org
-- cardano-haskell-packages
-Package list of cardano-haskell-packages is up to date.
-The index-state is set to 2023-04-30T00:28:07Z.
-Package list of hackage.haskell.org is up to date.
-The index-state is set to 2023-05-01T13:54:13Z.
+### 3) Download a pre-built cardano-cli 1.35.7 with governance poll support
 
-Now let's build cardano-cli ...
-Press [Enter] to continue ...
-Wrote tarball sdist to
-...
-...
-...
-Building     cardano-cli-8.0.0 (exe:cardano-cli)
-Installing   cardano-cli-8.0.0 (exe:cardano-cli)
-Completed    cardano-cli-8.0.0 (exe:cardano-cli)
-Copying 'cardano-cli' to '/home/user/.local/bin/CIP-0094/cardano-cli'
-
-restore the previous cabal.project.local file ...
-Press [Enter] to continue ...
-```
+(work in progress - stay tuned)
 
 
 ## The poll participation procedure
