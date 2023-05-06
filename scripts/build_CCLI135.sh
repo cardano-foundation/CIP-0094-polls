@@ -7,7 +7,7 @@ repoPath="${HOME}/git/cardanosolutions"
 binaryDestinationPath="${HOME}/.local/bin/CIP-0094"
 
 repoURL="https://github.com/CardanoSolutions/cardano-node.git"
-targetTag="release/1.35"
+targetTag="release/1.35+cip-0094"
 
 #########################################################
 
