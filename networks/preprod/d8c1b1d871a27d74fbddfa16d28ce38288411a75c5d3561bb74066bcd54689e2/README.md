@@ -1,4 +1,4 @@
-# PreProd Satisfation poll
+# PreProd Satisfaction poll
 
 In the Cardano [PrepProd testnet](https://book.world.dev.cardano.org/environments.html#pre-production-testnet) there is the transaction with the ID
 
