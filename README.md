@@ -48,7 +48,7 @@ mkdir "$HOME/tmp";cd "$HOME/tmp"
 # Install curl
 # CentOS / RedHat - sudo dnf -y install curl
 # Ubuntu / Debian - sudo apt -y install curl
-curl -sS -o build_CCLI8.sh https://raw.githubusercontent.com/cardano-foundation/CIP-0049-polls/main/scripts/build_CCLI135.sh
+curl -sS -o build_CCLI135.sh https://raw.githubusercontent.com/cardano-foundation/CIP-0049-polls/main/scripts/build_CCLI135.sh
 chmod 755 build_CCLI135.sh
 ```
 
