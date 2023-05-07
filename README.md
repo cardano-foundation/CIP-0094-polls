@@ -58,8 +58,7 @@ Now execute `./build_CCLI135.sh`. The script will explain each step it will do. 
 
 ### 3) Download a pre-built cardano-cli 1.35.7 with governance poll support
 
-(work in progress - stay tuned)
-
+See [CardanoSolutions/cardano-node@1.35.7+cip-0094](https://github.com/CardanoSolutions/cardano-node/releases/tag/1.35.7%2Bcip-0094)
 
 ## The poll participation procedure
 
