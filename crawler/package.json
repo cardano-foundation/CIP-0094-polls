@@ -1,0 +1,38 @@
+{
+  "name": "cip0094-crawler",
+  "version": "1.0.0",
+  "description": "Crawl the chain for poll results",
+  "main": "index.js",
+  "repository": "git@github.com:cardano-foundation/cip-0094.git",
+  "author": "KtorZ <matthias.benkort@cardanofoundation.org>",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "bech32": "^2.0.0",
+    "blake2b": "^2.1.4",
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "snapshot": "node cmd/snapshot.mjs",
+    "crawl": "node cmd/crawl.mjs"
+  },
+  "config": {
+    "ogmiosUrl": "<OGMIOS URL>",
+    "from": {
+      "slot": 27260357,
+      "hash": "f64a3aad89062968964ebeadf5089a3847fac03e7e0a0ef2d3b184a856d8ef2f"
+    },
+    "to": {
+      "slot": 27689710,
+      "hash": "4040eb29769b0a6508fc840f3ff90ad37c1ea150f629a6a4c1ed5c97ee962061"
+    },
+    "poll": {
+      "hash": "62c6be72bdf0b5b16e37e4f55cf87e46bd1281ee358b25b8006358bf25e71798",
+      "answers": {
+        "0": "dissatisfied",
+        "1": "no opinion",
+        "2": "satisfied"
+      }
+    }
+  }
+}

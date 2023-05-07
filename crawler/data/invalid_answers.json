@@ -1,0 +1,16 @@
+[ {"reason":"unknown pool","transaction":"d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2","signatories":["ba1aa1195c214d55c4d8073606bb302df82e84ddced843fa4a9fa9e799818d72","d1a8de6caa8fd9b175c59862ecdd5abcd0477b84b82a0e52faecc6b3c85100a4"]}
+, {"reason":"hash mismatch","transaction":"e79475d8a6491fa49b0681ca5098a30274fa7e0a16aec75263d1a6ab5c852073","pool":"pool1vvkurfxhajtj4f7x8wjkeet7rg8amz34duy5nux76per5sn3npx"}
+, {"reason":"unknown pool","transaction":"b08f5fc6e8cc7ed79bd60edb2412027bcbcf7df593a837161cc33c0c27ad62dd","signatories":["8e732e669812cc0fd45b6b7227c024823a93315dae8ec57916f10f37a14b135d","4b31710c44957a487394f1f83943a230010a050c985db114e6552abe903ad3ac"]}
+, {"reason":"unknown pool","transaction":"595888522c79096c7a6d014d403157168f27acfe55ba76c31f04e23c2a6036c7","signatories":["424bfbf00526d3692591750e5383d20f55d8feb88d0d6214592f342f361303d4"]}
+, {"reason":"hash mismatch","transaction":"b43346c4aa5971b052e561c7391333e05f2238eee4f770024ac3fc6660f11306","pool":"pool1vntql3yhyzzm3p846mds33nmuzz30jrn56fvjdd3hhu9u5n9d4d"}
+, {"reason":"unknown pool","transaction":"8e76dae445f57d0970a9bebb90f11791b2c3c22386fea5cdf11a545b8167c189","signatories":["0c509a61d0956c7ab3f7e3574c32fddf67dcf58b2c893d5c64a87ade7d236d30"]}
+, {"reason":"unknown pool","transaction":"dc98a222a8aa84b6001fdcc9cc38784fe15b1e077fe244eed55e48b8b9e09875","signatories":["8d100de1ec47331edbb475e149a2a2683340fea310c6e72213f50f0b6343c427"]}
+, {"reason":"unknown pool","transaction":"39bd334ba1a7e9573a4a339cf743e198a731e7f7c049a3c0bc1399ca09923c96","signatories":["8d100de1ec47331edbb475e149a2a2683340fea310c6e72213f50f0b6343c427"]}
+, {"reason":"unknown pool","transaction":"19385038db9fc1fc00c6fbeccb36682057a5c71d8ce6ca574d55cff480b12759","signatories":["f1fbcdd58e9c403141b3bbeab229d56e9198f9be012b1e5f5f5da71a3a8f16b9"]}
+, {"reason":"unknown pool","transaction":"ad67a4615dd26582e1ee8764a0edfaaa4f33df98223bc9ebe5ac7f22da8cf93a","signatories":["86ab6c85e480a2bc54ab485d7df1640e4ba32acae69a6a3a6ef3a7a986f26b65"]}
+, {"reason":"unknown pool","transaction":"1541bc178db6d95cba79a91699e250098f29b42d01277813b2349d4d5854cf24","signatories":["1d7fe2e01b140386b9cefb6d0ba1f2f22305d4d8572a46be1c39266fc0c50616"]}
+, {"reason":"duplicate answer","transaction":"49cda229c48e7c04cdb7c921983192270c019441b61b1bfbcb1f0d0ee3557f48","pool":"pool1yzwxetclm2l48xzvmnwwf6x48a5qze0nx4t6glz5k8wk50xl006"}
+, {"reason":"unknown pool","transaction":"3d061e264901282f02db1e83fa34879e3904ea159ab4735a7e1cc7553a0afef4","signatories":["66abebcfba0af1face179b04af7bcc17f9c927582b27d46fbc5f9e56b8f52033","0186abff41121414f856fd8cf613399f9a30e413bb1c75c2413f46121f020349"]}
+, {"reason":"hash mismatch","transaction":"4f28e740f0a2ec846ff8999bd196d37168a227bd768d485bd041e3cef581d554","pool":"pool1rkfs9glmfva3jd0q9vnlqvuhnrflpzj4l07u6sayfx5k7d788us"}
+, {"reason":"hash mismatch","transaction":"2a6d3270095f093ac631e1ff5c2198f9de9e36dbc0d2e61cf2791974c28c373b","pool":"pool107k26e3wrqxwghju2py40ngngx2qcu48ppeg7lk0cm35jl2aenx"}
+]

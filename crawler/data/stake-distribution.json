@@ -1,0 +1,2192 @@
+{
+  "point": {
+    "slot": 27689710,
+    "hash": "4040eb29769b0a6508fc840f3ff90ad37c1ea150f629a6a4c1ed5c97ee962061"
+  },
+  "desiredNumberOfPools": 500,
+  "poolInfluence": "3/10",
+  "totalRewards": 26643083721531,
+  "activeStake": 30377609123958596,
+  "pools": {
+    "pool1qvfw4r3auysa5mhpr90n7mmdhs55js8gdywh0y2e3sy6568j2wp": {
+      "stake": 19497622138,
+      "ownerStake": 19497622138,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1qv4qgv62s3ha74p0643nexee9zvcdydcyahqqnavhj90zheuykz": {
+      "stake": 31833147895,
+      "ownerStake": 11139595341,
+      "approximatePerformance": 0.975,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 5000000000
+      }
+    },
+    "pool1q6xfqttwyvzm5stww948fzx0r567fengnph860xq966u5cfedxk": {
+      "stake": 1005975865083,
+      "ownerStake": 0,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 5000000000
+      }
+    },
+    "pool1pq4f0yt7cq9dz6tj6sj6eqnncem9m66txvuuv6d6m6jrq0wcdgv": {
+      "stake": 29495078203,
+      "ownerStake": 19497427641,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 19000000000
+      }
+    },
+    "pool1p9ldx03yshlzj4dlhlaxd59nukysjd3mldc8cuv5ae897q7ky2z": {
+      "stake": 1081507585115,
+      "ownerStake": 46305039940,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 777000000,
+        "margin": "33/100",
+        "pledge": 37777000000
+      }
+    },
+    "pool1p8wan47ztxkv9nu46g5cw67z9j7mxqqs3a5jncx52e8ak7ackw3": {
+      "stake": 1441494580177,
+      "ownerStake": 1497427597,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1pf8d83wvzxsyfnl3dacy2kyvndhkex8hz4qzdgar740jgk68edd": {
+      "stake": 17821035,
+      "ownerStake": 10000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "79/1000",
+        "pledge": 4000000
+      }
+    },
+    "pool1ptyjx9c5tq47up4ggz6yy5672xmwcz3zr63cqc2cv8v9qksu695": {
+      "stake": 1024575199137,
+      "ownerStake": 11603751128,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 1000000000
+      }
+    },
+    "pool1pdw2tqeg70crgwy3puz4hlffl3u9lr2t5katsz63v2w6jfl0gn2": {
+      "stake": 1288582666297,
+      "ownerStake": 22073511109,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 123000000
+      }
+    },
+    "pool1phgtk3jgdyq2ldsqae3d4kap8l8pq8lyadqacvfhcdxpzkpzfpc": {
+      "stake": 29497627330,
+      "ownerStake": 29497627330,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 0
+      }
+    },
+    "pool1pmvsu5kmy9nt82qwqugcsku5772sls8r3x99ww5tnzcwjzpvy4n": {
+      "stake": 3100351117505,
+      "ownerStake": 530545801993,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 500000000000
+      }
+    },
+    "pool1plld4snskqnegqu3dzkuq763e3xnh47kujjju6kvh56ej6suwd0": {
+      "stake": 99632441,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 500000000
+      }
+    },
+    "pool1zr907nmfsq5kalxdjju349nwg6f03lyfmcjfqcz52jf45gcgh03": {
+      "stake": 15068711225,
+      "ownerStake": 15068711225,
+      "approximatePerformance": 0.965,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 9000000000
+      }
+    },
+    "pool1zgxyrg92crhawjeux2pavqde3c2a0fgs0kgmeckknj0m7wmpcvl": {
+      "stake": 7944153185,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 10000000000
+      }
+    },
+    "pool1z22x50lqsrwent6en0llzzs9e577rx7n3mv9kfw7udwa2rf42fa": {
+      "stake": 1047519499789,
+      "ownerStake": 1000000000000,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "1/1",
+        "pledge": 100000000000000
+      }
+    },
+    "pool1zv0ldgrpp2pwzr39vjwcyfz57e8mlff3229wyykt5pmsjt95jhc": {
+      "stake": 9584789375,
+      "ownerStake": 9480830409,
+      "approximatePerformance": 0.985,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1zwmkuyzj8wykfdq98g28stkpq28k0f3l2xse384re5yfwap80ca": {
+      "stake": 1352538360402,
+      "ownerStake": 233912172885,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 200000000000
+      }
+    },
+    "pool1z05xqzuxnpl8kg8u2wwg8ftng0fwtdluv3h20ruryfqc5gc3efl": {
+      "stake": 3794362787569,
+      "ownerStake": 2771954816699,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 1000000000000
+      }
+    },
+    "pool1z063uemr7k9zzg95ymz0gfqnfv5k58et8xrnk6ynfyqdgjjw0e7": {
+      "stake": 3989844812079,
+      "ownerStake": 82323730753,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 0
+      }
+    },
+    "pool1z7kuc2r7jgfmvuw0fazqzs8phcgfl64kmdmcsq7z440v578ekw8": {
+      "stake": 4299537585,
+      "ownerStake": 2587275661,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1rymgeu3pc4a847sksu8ulxgypeq5ysf0ccywgwkcsgr9cmay57u": {
+      "stake": 1073243674063,
+      "ownerStake": 22057248992,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/100",
+        "pledge": 100000000
+      }
+    },
+    "pool1r9lez5dne3gxe6yjpe3rl87kqweff9uyx8vkv2kk3yprs2k725u": {
+      "stake": 0,
+      "ownerStake": 8497081943,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 123
+      }
+    },
+    "pool1r2k8y80zxvqjyvyy3xg8r50892qcewgm38z6pcy3uk8fky4rkl0": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 3000000000
+      }
+    },
+    "pool1rsrah5my3lns23ghpdhk6wgpxmqucehvsvex7hv55r7nuyyrfel": {
+      "stake": 205486425,
+      "ownerStake": 200000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 10000000
+      }
+    },
+    "pool1rstkgcnzexnacmv99ycaf6nd7sqxmd9w279v6cmq5dehus8w0aw": {
+      "stake": 1019930933075,
+      "ownerStake": 0,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 0
+      }
+    },
+    "pool1rkfs9glmfva3jd0q9vnlqvuhnrflpzj4l07u6sayfx5k7d788us": {
+      "stake": 13950644850128,
+      "ownerStake": 205518931214,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 10000000000,
+        "margin": "1/10",
+        "pledge": 0
+      }
+    },
+    "pool1ypmhxlnrmhxpfavklkkt4td4dartxhphdc7shvc5knknur05ta0": {
+      "stake": 1010000000000,
+      "ownerStake": 10000000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 1000000000
+      }
+    },
+    "pool1yzwxetclm2l48xzvmnwwf6x48a5qze0nx4t6glz5k8wk50xl006": {
+      "stake": 1142720731812,
+      "ownerStake": 22003947151,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 3000000000
+      }
+    },
+    "pool1yrtux38kfj030vprg4k2f46q8rqkf6ss6yk2yvyeks8k5uk9tss": {
+      "stake": 10015471465,
+      "ownerStake": 10000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "79/1000",
+        "pledge": 4000000
+      }
+    },
+    "pool1yy4cemccmnk6m6adcnxedzy4dvrlw95djln4pctg0jpq5x7gczh": {
+      "stake": 1067784897446,
+      "ownerStake": 10792199175,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 0
+      }
+    },
+    "pool1y9awaq0evchgpnfjgys53yljunxajzzn590459aeyw74q9xkxzg": {
+      "stake": 36393692675,
+      "ownerStake": 36393692675,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 9400000000
+      }
+    },
+    "pool1yh54ttht6ww74u77xehwm2mfhg27qmm3v56e5ahc2nsrszv0xtn": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 6000000000
+      }
+    },
+    "pool1y78qthpjc0zvqwu7nfgy7m756226fz83dkkyxargq0juskqy63q": {
+      "stake": 9497623722,
+      "ownerStake": 9497623722,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 7500000000
+      }
+    },
+    "pool19zdqgm9hmstrjc36jh8wke5sa6t9wjaeyx6u8yza69d52crgvtd": {
+      "stake": 10095101875,
+      "ownerStake": 9497452193,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 1000000000
+      }
+    },
+    "pool19658g9m7a6e7vtky76aefcwmm75wegf9xs3t024s38l87rqq4ky": {
+      "stake": 1212887452842,
+      "ownerStake": 52244566772,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "11/500",
+        "pledge": 10000000000
+      }
+    },
+    "pool19u5hvwc7hm5wrs0tf5knh7373p88en9gt2tyad5yjfujy29676m": {
+      "stake": 1009493270676,
+      "ownerStake": 9493270676,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "7/125",
+        "pledge": 1234000000
+      }
+    },
+    "pool1xqgxjecd9jrf0g9vert2xzdte9rfwptnat03whfz69t4gx4qz4s": {
+      "stake": 18394762601,
+      "ownerStake": 9397280488,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1xqhqfj4jnehs5zkmr2py40wkuztvwatx9p7gsdvpesj6x6tsyt2": {
+      "stake": 2319693693025,
+      "ownerStake": 1291348962197,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/2",
+        "pledge": 5000000000
+      }
+    },
+    "pool1xpr3e4gt8knxq82hpc30a3xa5j0pgwz3c9v5xjdrtuf66ez3m8u": {
+      "stake": 1173434909286,
+      "ownerStake": 60867152695,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/4",
+        "pledge": 59995000000
+      }
+    },
+    "pool1xxnkgjejhd2eqp4gusjd8s2tnq6frwh4z453j5s2vl7axv90n9a": {
+      "stake": 9497080312,
+      "ownerStake": 9497080312,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 5000000000
+      }
+    },
+    "pool1xgxhm4zgkevltshwk7yezvt9un08anc9rhlutm5yp7jr2etj3x0": {
+      "stake": 1048964529291,
+      "ownerStake": 29497231252,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 5000000000
+      }
+    },
+    "pool1x2f7xdre72calxp5j05k5g9hvskztl790v9enggn42js5mdxesn": {
+      "stake": 1645747368,
+      "ownerStake": 1645747368,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1x4p3cwemsm356vpxnjwuud7w76jz64hyss729zp7xa6wuey6yr9": {
+      "stake": 1080952964770,
+      "ownerStake": 39714256918,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "9639/10000",
+        "pledge": 31369000000
+      }
+    },
+    "pool1xk2ml63jn0rjd5958zul47hc790neyngkcz0tqwxrdtn5nn349z": {
+      "stake": 3497336614,
+      "ownerStake": 3497336614,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 100000
+      }
+    },
+    "pool1x6hwmrf5mz8hd02n5x3ycgsgwsdpfexurdegxfq7s4wsc79df2h": {
+      "stake": 1119800762250,
+      "ownerStake": 8395225506,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 5000000000
+      }
+    },
+    "pool1xu8ljtay48mcdmnu4qnd6l9s9qxeu73w0h6l0gpt0097jgs93y4": {
+      "stake": 3563106258,
+      "ownerStake": 2565280383,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1xapempldsxvte845vwxk2flmqm4x7jrhqftj5q3p5qhvynd6smz": {
+      "stake": 19497622798,
+      "ownerStake": 19497622798,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "1/1",
+        "pledge": 100000000
+      }
+    },
+    "pool1xafhfcvhyk2cyr7lprt4luxjcxgh8z87z6fke7d6grvvzljga3l": {
+      "stake": 12287095935,
+      "ownerStake": 9497629706,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "11/125",
+        "pledge": 1000000000
+      }
+    },
+    "pool1xaj5w5m3ra8xypv58h4djvjkm08j94nu9w49nadlyyduqx6h5dp": {
+      "stake": 17948753391,
+      "ownerStake": 9363433743,
+      "approximatePerformance": 0.895,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 111000000
+      }
+    },
+    "pool18q5sayzqekqvqyenlkgaarlza5jxzhkyq9akc9qr5ytgczkjh23": {
+      "stake": 77721460169,
+      "ownerStake": 10932900704,
+      "approximatePerformance": 0.895,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 9000000000
+      }
+    },
+    "pool18ylse5vwz63ahy85zsxuttzy7u7zadnjq9kawpa7yqry7dr9zna": {
+      "stake": 1017842323002,
+      "ownerStake": 13459597270,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 9400000000
+      }
+    },
+    "pool188vupfvh4nkd307swe4y02jx36lr7ee5qglavska0ywpxrqu8ra": {
+      "stake": 29497103929,
+      "ownerStake": 29497103929,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 10000000000
+      }
+    },
+    "pool188etalcyudyh4xuaa4mjahs62jujem35h3l02ht83zjusqvwdh7": {
+      "stake": 215791023453,
+      "ownerStake": 5781035419,
+      "approximatePerformance": 0.985,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool18f0ftweczx8kyqv054ld4dpauc92pqy6uvr44wa6x8vhk7tj2m3": {
+      "stake": 39490536336,
+      "ownerStake": 19495061483,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 5000000000
+      }
+    },
+    "pool18jx0kufqqvhcjky7ml6s56lezuzrvxh8vt98ekpj4sz9wrp0q9m": {
+      "stake": 0,
+      "ownerStake": 8497081943,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 0
+      }
+    },
+    "pool1862n3xnc2y49rezae700z423lnewx6k5hj6jk0tl0vz87n0l279": {
+      "stake": 1000000000,
+      "ownerStake": 1000000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool18uptuw2h2adryvnkhkavj3u2fum0lnemwxaxv9p7exy2vcwhrpe": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool18aj2dag2cn6xr59mzxhtyyfu9kh0h9266s79z7l9hqlvvf69t4y": {
+      "stake": 9497243396,
+      "ownerStake": 9497243396,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 1000000000
+      }
+    },
+    "pool18alum6knwxaz2ku2k7zc78wa6k76w6c5l2l4pxg2j55w6wecdpn": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 0
+      }
+    },
+    "pool187yqngpdck7j8pa7r9hhp3fpxem478fqw2nklyr59ppkwystqdl": {
+      "stake": 10226831819,
+      "ownerStake": 10226831819,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000
+      }
+    },
+    "pool1g9gkpj6kdt4gmlhnf7yzv7y9u2qstp3r0tm4f68a47ukztaqe6q": {
+      "stake": 9497624778,
+      "ownerStake": 9497624778,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 50000000000
+      }
+    },
+    "pool1g8yh6lekmzm7jj5ja86nn5gnszwefnv25tfxtar9uhm82rpy249": {
+      "stake": 8497081943,
+      "ownerStake": 8497081943,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 0
+      }
+    },
+    "pool1ggurf2dnv9qh7k8zt9hha2fjtv26v2uy0w23vvf0q7snjqe42mm": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 100000000
+      }
+    },
+    "pool1g20peax827vmg9yyqfzj4g8d65fpz9y9uhsuhe70jwmfvaceg2m": {
+      "stake": 1504035701068,
+      "ownerStake": 32269211964,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 19000000000
+      }
+    },
+    "pool1gvfth5tq0hdy3md9j33ee6wat7k04lnwjq4kmkjpmmrj7l99sxs": {
+      "stake": 1201770497,
+      "ownerStake": 1000200000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1gmxl4hv5hxh8vagw26r6av0pwhxemye8wv2hl30e2mehvzmzk89": {
+      "stake": 408340669,
+      "ownerStake": 2587275661,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1gme3a0y0hqz2kmyvn5kqp6ngf74nw2uzypvw0ynxrfysug6p9fz": {
+      "stake": 25559221094,
+      "ownerStake": 15520407504,
+      "approximatePerformance": 0.975,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 9000000000
+      }
+    },
+    "pool1ga327ax76twamq0zypgxrc2n0g9dvwhsr3rkwf6rfl426mp8m2f": {
+      "stake": 28167465491,
+      "ownerStake": 18202019821,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "23/1000",
+        "pledge": 100000000
+      }
+    },
+    "pool1g74v33gkx84x94tep4qwrczkwwk8l075sslne2vrmn9jx95rfqa": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 400000000
+      }
+    },
+    "pool1g74nu0hezqzd07jdk75gvaf665rrzwqnz2784xe0t5td5pj497p": {
+      "stake": 70272688189,
+      "ownerStake": 60306889317,
+      "approximatePerformance": 0.955,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/25",
+        "pledge": 59000000000
+      }
+    },
+    "pool1fz8qe58ywqgyrvph5hwv4veualuwvy6uvwyzg3hajrynzgmcre2": {
+      "stake": 9497445813,
+      "ownerStake": 9497445813,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 50000000000
+      }
+    },
+    "pool1frc4f6cr8hwkjraygrhsvkl840xdv0u52g96k05lrd3tyeskmx7": {
+      "stake": 28716833307,
+      "ownerStake": 28716833307,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 4321000000,
+        "margin": "1/25",
+        "pledge": 1000000000
+      }
+    },
+    "pool1fyssphxavlclpddydsx4k3zdg04j6rkshkxvf7wedny95tvqyla": {
+      "stake": 19347123831,
+      "ownerStake": 19347123831,
+      "approximatePerformance": 0.985,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 10000000000
+      }
+    },
+    "pool1fxqkwkutajp2vr7t3vpvt4sgy7gmlxetgnyh57hkn7ru2rf96a2": {
+      "stake": 9997655666,
+      "ownerStake": 9997655666,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 200000000
+      }
+    },
+    "pool1f8c7lz93ysh00k09lwm8uycrq7plxsz5kqwd7cyq9v6sgvf6cnl": {
+      "stake": 19490575951,
+      "ownerStake": 9486265103,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 977644666
+      }
+    },
+    "pool12v43sug6avuwn458fwlx0j72lqrjqqcec9nc9ywk24x0wn7ng46": {
+      "stake": 203243710882,
+      "ownerStake": 41487745127,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 15000000000
+      }
+    },
+    "pool12jthfp4uqah0yndtdu6x2tqaxvgnlpc7h30gvwey3rsrc789tme": {
+      "stake": 371288383774,
+      "ownerStake": 20526869355,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 10000000000
+      }
+    },
+    "pool125tufz3q8ww2he3cwp7cn02lsf44u85tnlycmxq0y6pegz4mhjs": {
+      "stake": 33770226024,
+      "ownerStake": 10197223860,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "99/100",
+        "pledge": 10000000000
+      }
+    },
+    "pool124jq2jje25v9gtrjxk8qm34ujrcsa3msy4tm04nl2262j5scclv": {
+      "stake": 1637310998035,
+      "ownerStake": 449037279306,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 400000000000
+      }
+    },
+    "pool12krslmkmerf45g4juaartm4hkawkmrh86peyy4hlte6nxyzwcyf": {
+      "stake": 0,
+      "ownerStake": 9854437871,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 100000
+      }
+    },
+    "pool12efl9gdw55cc7sax8cq5spmrfzj8t57gj2p63s0tfx8mwqrqe4g": {
+      "stake": 9195912086,
+      "ownerStake": 9097271336,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 1000000
+      }
+    },
+    "pool12uvnqe8uq8jfrpk337k63pgfkf0q6lncy0zqcylfdq4zc9n8755": {
+      "stake": 9512621258,
+      "ownerStake": 9512621258,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool12al62800devlmgdk8x5qpw38tnjsmgyys6lrd88hmfwvka2upuw": {
+      "stake": 19497630838,
+      "ownerStake": 19497630838,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 0
+      }
+    },
+    "pool1tzau4l4xpk4jqh766am0m89np2k27k0p0we424fte9mczrfl49h": {
+      "stake": 28521024598,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 400000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1t95f2kval0ratng95m7kqf5xch462gdpde62q9cr4849uehxmqa": {
+      "stake": 9505974218,
+      "ownerStake": 9505974218,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 500000000
+      }
+    },
+    "pool1t89nwdvpm8zc9whhnkr2mvvzayu3w9m06jc9yrd28w7lvm2r0y3": {
+      "stake": 2800000,
+      "ownerStake": 2800000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 10000000000
+      }
+    },
+    "pool1tjc56tq7adk64nnq2ldu3f4nh6sxkphhmnejlu67ux7acq8y7rx": {
+      "stake": 6352149405715,
+      "ownerStake": 1625889513894,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 1000000000000
+      }
+    },
+    "pool1vqq4hdwrh442u97e2jh6k4xuscs3x5mqjjrn8daj36y7gt2rj85": {
+      "stake": 64647650183,
+      "ownerStake": 23848925642,
+      "approximatePerformance": 0.965,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "99/100",
+        "pledge": 9000000000
+      }
+    },
+    "pool1vfqxyyxmfmfzg3egvc42dxkmmeea3he3r8h6q2dnwkaawwd0sv0": {
+      "stake": 497624998,
+      "ownerStake": 497624998,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1vf8ukuvdn7kv0hxgm23utjkkw5ugdhwfdrxy56l2t6wvxezspyu": {
+      "stake": 2497336614,
+      "ownerStake": 2497336614,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 100000
+      }
+    },
+    "pool1vtfhwwy868ryf49j3ft58ug3t9lq44t9fdcavyl5pawsx6hlvam": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 500000000
+      }
+    },
+    "pool1vtvseq6f76sxwknw5r6mv24x3nxcevenhpsyf35utkk77xljhag": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 100000000
+      }
+    },
+    "pool1vvkurfxhajtj4f7x8wjkeet7rg8amz34duy5nux76per5sn3npx": {
+      "stake": 1782813851230,
+      "ownerStake": 467186941279,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "392699/12500000",
+        "pledge": 5000000000
+      }
+    },
+    "pool1vw6fr9agt58djrp3w0t0lsn6t329t6eusqxz5ugd9w7ecyedsdv": {
+      "stake": 1019487443657,
+      "ownerStake": 19487443657,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 5000000000
+      }
+    },
+    "pool1v3lsp74wauazym2rwkktye9kdw2vyj8h9yvkgzj556t0g390ecw": {
+      "stake": 1041702428592,
+      "ownerStake": 9497636658,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/40",
+        "pledge": 100000000
+      }
+    },
+    "pool1vntql3yhyzzm3p846mds33nmuzz30jrn56fvjdd3hhu9u5n9d4d": {
+      "stake": 1151330554665,
+      "ownerStake": 29769172571,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/100",
+        "pledge": 20000000000
+      }
+    },
+    "pool1dzxc7pqsqfs7dru7xdrkvkdf9s3kd4y2tqsdv063d2lfcxw6zmg": {
+      "stake": 1085980435648,
+      "ownerStake": 22884924096,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 500000000
+      }
+    },
+    "pool1d20fqynupcwz54chju55syfz3nms6h3kazwy9a089ghm2t2lzpg": {
+      "stake": 1001000000,
+      "ownerStake": 1001000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1dt5t2upg4mppj9y9trh6huq2qm8rcl86pqk6dmk04kfjg4e8ga6": {
+      "stake": 26500420977,
+      "ownerStake": 16542312472,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1dvwuefdyt53wt54t7hk8lcy4qsdg5jyww9nk08v9nrprs2uwk99": {
+      "stake": 44000000,
+      "ownerStake": 44000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 100000000
+      }
+    },
+    "pool1dje2qc5gp7t7sjgd5j6tse9smkwq0kezsccy8jkxr507x0aw4h3": {
+      "stake": 11006161103,
+      "ownerStake": 1008344160,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1duwr8s97tsl6qqwwqnul5788ne949mlm5u6d2zq7dwpr2r4sd3t": {
+      "stake": 497700000,
+      "ownerStake": 497700000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 100000
+      }
+    },
+    "pool1wyk7r2z9etzevz8yucu4jpamkt95f0rjtew82y3dx3zx5maj92v": {
+      "stake": 18494515876,
+      "ownerStake": 8496875126,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "7/200",
+        "pledge": 2000000000
+      }
+    },
+    "pool1wf542yl9c85gks2f4y479v2nlqtfr8t06v0td877h5e0qgry4st": {
+      "stake": 9505580296,
+      "ownerStake": 9505580296,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 5000000000
+      }
+    },
+    "pool1ws42l6rawqjv58crs5l32v0eem3qnngpnjfd7epwd4lmjccc5cg": {
+      "stake": 1014320444399,
+      "ownerStake": 25208172097,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/20",
+        "pledge": 8000000
+      }
+    },
+    "pool1wns664xl66hwsx7wf59lunq5x0t3mr46ew3j5sgm8t5xka32y4m": {
+      "stake": 17821035,
+      "ownerStake": 10000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "79/1000",
+        "pledge": 4000000
+      }
+    },
+    "pool1wn6a6f23ctq06udwhw27ravdpd6zcr7jlut3yez0wzdackz3222": {
+      "stake": 1222886886510,
+      "ownerStake": 46072102675,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 777000000,
+        "margin": "11/50",
+        "pledge": 37777000000
+      }
+    },
+    "pool1wcz3mfg76ttd8tl7m54z9ptrs4wpfatx7vwd9ykrsjltwkzvcz9": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 350000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool10zaylnde5n0uurvcqyrmf2wjrk0hk2zmx0ln990p3alt2gh4mkk": {
+      "stake": 22452880,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool10208t5hc4l4gll3d64d2a8mml5tjgg9k0nsjvxplt046k7pwkvc": {
+      "stake": 1034067259987,
+      "ownerStake": 30000000000,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/4",
+        "pledge": 29950000000
+      }
+    },
+    "pool10aqw4wa8cenqut0mlhrnayfhh4jjv7kyg9zv40426axs793k6nx": {
+      "stake": 1129850024035,
+      "ownerStake": 42455792932,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 35000000000
+      }
+    },
+    "pool107k26e3wrqxwghju2py40ngngx2qcu48ppeg7lk0cm35jl2aenx": {
+      "stake": 8313192156946,
+      "ownerStake": 98928434494,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 70000000000
+      }
+    },
+    "pool1s2drn889wxgszm055z4hj5nvevdtdx9q5lc66lwdvmcl2nvdq9y": {
+      "stake": 1566807290627,
+      "ownerStake": 21091494516,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "1/100",
+        "pledge": 1000000000
+      }
+    },
+    "pool1st3vxnpm52s8rqp3upm4t02x75td66vkxpk9nf5sudpckez3q9j": {
+      "stake": 9497439873,
+      "ownerStake": 9497439873,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 0
+      }
+    },
+    "pool1sew77wmm4ygdn2trm55fgjck895fyqvnnqqgmwuty86q5aukla7": {
+      "stake": 1157980576015,
+      "ownerStake": 41700573553,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 15000000000
+      }
+    },
+    "pool1se43tfl325c0mgmd3lfvleljllsm9hkzmnhr45ujhx0mvgtahw3": {
+      "stake": 30492558556,
+      "ownerStake": 9497248984,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1s7wetfttn723hvdxx3wusz7yrxztzdfu6dm5nu4j6tuj6xcz2sj": {
+      "stake": 168426056619,
+      "ownerStake": 38541529435,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 20000000000
+      }
+    },
+    "pool13x9h4e00xt6vr7z7whr525lk0elzwtvt3z9pzqqrrhep2ztjcmh": {
+      "stake": 7997531463,
+      "ownerStake": 7997531463,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 100000
+      }
+    },
+    "pool13fmuunlup35sgxt8t2jnjm0e5wxfe5swxeyr6tfyvh8gv9hdz68": {
+      "stake": 1290708363677,
+      "ownerStake": 2056940315559,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 600000000000
+      }
+    },
+    "pool132jxjzyw4awr3s75ltcdx5tv5ecv6m042306l630wqjckhfm32r": {
+      "stake": 12344078340080,
+      "ownerStake": 1699968721068,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000000
+      }
+    },
+    "pool13ved7up7lkz220kv8r84h76lgt27a3umyf7uewlxxclxvdm6zlf": {
+      "stake": 1164482212223,
+      "ownerStake": 91682233370,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 80000000000
+      }
+    },
+    "pool135dzt5vxn7um8tx3z58zt7x2ut6nu6epfxfandps5radw2zhzf0": {
+      "stake": 81221211012,
+      "ownerStake": 28788154406,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "19/1000",
+        "pledge": 100000000
+      }
+    },
+    "pool13hgadlyxdg306f43k9k950v6mc5nvanetszj0mxjh6wnuxwm9hd": {
+      "stake": 31254688794,
+      "ownerStake": 4999999500,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 100000000
+      }
+    },
+    "pool13634p85x5duyu6d2ke38032hjry5c6h524l9k9wqa6uv7e29n7e": {
+      "stake": 39179691914,
+      "ownerStake": 1008344160,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 360000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool13ls4vfl0cznxjh0jm7kmzv5a5wf8e8uh27esucwm2f4mwt40sfv": {
+      "stake": 1043275809416,
+      "ownerStake": 25120077146,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 400000000
+      }
+    },
+    "pool13la5erny3srx9u4fz9tujtl2490350f89r4w4qjhk0vdjmuv78v": {
+      "stake": 18882704001928,
+      "ownerStake": 251626438493,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "69/10000",
+        "pledge": 210000000000
+      }
+    },
+    "pool1jqdqadpeezma9ny2cnh6gya2ps7nlvu3lygh5ep6e38jufvhte5": {
+      "stake": 9497623590,
+      "ownerStake": 9497623590,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 5000000000
+      }
+    },
+    "pool1j8jjj8y07k5kh2ur8usekj5w0y4swl8khd2lgn8ghlfsuwexwf9": {
+      "stake": 74544336819,
+      "ownerStake": 8168904523,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 0
+      }
+    },
+    "pool1jgl6h9fyy8gqt593ah638kqps4ls7c78d5p00we6qlzycdmhhvq": {
+      "stake": 1079280016029,
+      "ownerStake": 55284553144,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 420000000,
+        "margin": "69/1000",
+        "pledge": 50000000000
+      }
+    },
+    "pool1jtsar7k09zne4wzlen5ctmxa8mjuzwmzp9tmdxdul9f2q70074k": {
+      "stake": 52625042,
+      "ownerStake": 52625042,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 0
+      }
+    },
+    "pool1jt6tf4y0eshz0agzww8dc44wqt5kk8ytu730yww37acykezuly7": {
+      "stake": 9497624426,
+      "ownerStake": 9497624426,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1jv7euu69zch46rl9a3nenaa50pwypjk6g7uzy5qzf3s76tafy72": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1j5ykmf5a87myg947w2svnnj8f3evt8dqmvv624kugv9tcwwk8vr": {
+      "stake": 1079341517949,
+      "ownerStake": 42710352908,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/20",
+        "pledge": 10000000000
+      }
+    },
+    "pool1j55ew47zgftph5jkf6qsuuhxwu0tjf4fvln6259mpqn06xcktvj": {
+      "stake": 19569803251,
+      "ownerStake": 9571992028,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1n84mel6x3e8sp0jjgmepme0zmv8gkw8chs98sqwxtruvkhhcsg8": {
+      "stake": 31192841168113,
+      "ownerStake": 22153957930,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 9000000000
+      }
+    },
+    "pool1nfn2m3lq52hw6l8lq9nlag4lsdvlav2zdl9saptfelh07arxfc5": {
+      "stake": 1124887827809,
+      "ownerStake": 30456687678,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1ndxf966uknq89g8xvurh0cduskr2yq4ua678qt5pkyc4u6eq0mv": {
+      "stake": 1046639162083,
+      "ownerStake": 22960146600,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "99/10000",
+        "pledge": 1000000000
+      }
+    },
+    "pool1njr03m7t9k808fcav8phxnskacr4v59w5cnqgqsgnug2j2lvn85": {
+      "stake": 1051818309767,
+      "ownerStake": 19188417997,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 5000000000
+      }
+    },
+    "pool1nj7z8vrq2m2u052cv58srudcrj2k3na0pqz9evc3n498wvm65a2": {
+      "stake": 9497237896,
+      "ownerStake": 9497237896,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 2000000000
+      }
+    },
+    "pool1n4djuwkk8jvcywzh5dzgh5qhs5h0ugvyy5ahfhdc97x3qhnsv5s": {
+      "stake": 28017919605,
+      "ownerStake": 10020094962,
+      "approximatePerformance": 0.895,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 2000000000
+      }
+    },
+    "pool1nmfr5j5rnqndprtazre802glpc3h865sy50mxdny65kfgf3e5eh": {
+      "stake": 1656918508091,
+      "ownerStake": 1396012682637,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 450000000000
+      }
+    },
+    "pool15w7lejtrpk4868drc8h65cgmm504qlnzhh52e2yndgrs5a9w232": {
+      "stake": 21281808426,
+      "ownerStake": 12446951959,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "299/10000",
+        "pledge": 9000000000
+      }
+    },
+    "pool150an6nge5wnpr9j2pduez0ff2n7wc0gfkmf896vwfmc8kqd7aek": {
+      "stake": 1029727840692,
+      "ownerStake": 11569315473,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 100000000
+      }
+    },
+    "pool1547tew8vmuj0g6vj3k5jfddudextcw6hsk2hwgg6pkhk7lwphe6": {
+      "stake": 1057154246073,
+      "ownerStake": 1000000000000,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "1/1",
+        "pledge": 100000000000000
+      }
+    },
+    "pool15kkydrvnkqyqq6zmlnjglskqwulka0qr95wgz84a7mzmufrnzj5": {
+      "stake": 135351153101,
+      "ownerStake": 9497623766,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "2/5",
+        "pledge": 100000000
+      }
+    },
+    "pool15udpynn4qj4sdtlfz400he4narmagth659nzlx83rmklq2773kg": {
+      "stake": 1048063161466,
+      "ownerStake": 0,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 0
+      }
+    },
+    "pool15uue6svd6kjt9gjplp3a2z2f6sq79m0h7fx3fd3960g6chhudm9": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 341000000,
+        "margin": "1/100",
+        "pledge": 200000000
+      }
+    },
+    "pool14t88wyzkfeqex34hjtk7e773r8rx3erfxl6s4mckzzhtcdc2egk": {
+      "stake": 19765649630,
+      "ownerStake": 9497622138,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool140qtx3sfkm0sxlld059xt6vejwcawul6x70la9clml3kxruz6qp": {
+      "stake": 1009497447617,
+      "ownerStake": 9497447617,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 1000000000
+      }
+    },
+    "pool1406426vectppa96tc54p0jpa335zn4793969udppzcj8qlfwech": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 64000000000000
+      }
+    },
+    "pool144pedg8hc3lr660w30te9jqv5zllaesegh8vt3ptft5s7qu45re": {
+      "stake": 952512899030,
+      "ownerStake": 116425463946,
+      "approximatePerformance": 0.965,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 100000000000
+      }
+    },
+    "pool14kjc0axlsazplwfz9epvn88s866hgn7mvaya5pzrevnwy5cvj6a": {
+      "stake": 9497427729,
+      "ownerStake": 9497427729,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 125000000
+      }
+    },
+    "pool14773v3ddtf363gfcaah8424wtv3uczmk49vvjvhuslj653hfjpt": {
+      "stake": 1000000,
+      "ownerStake": 1000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 432100000,
+        "margin": "0/1",
+        "pledge": 7000000000
+      }
+    },
+    "pool1kp6y5wt4ujewtlqy4nqtcemgy3ekkq0qwa6vwg3pqq8gjm6d7j3": {
+      "stake": 30943174420,
+      "ownerStake": 1000000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1kxk8w4c5t68dvu9k6xwfy8slamltwwerl0kmqxqkk5yx7ndrfpq": {
+      "stake": 2497700000,
+      "ownerStake": 2497700000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 100000
+      }
+    },
+    "pool1kgzq2g7glzcu76ygcl2llhamjjutcts5vhe2mzglmn5jxt2cnfs": {
+      "stake": 1134393052202,
+      "ownerStake": 80137251414,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/2",
+        "pledge": 56326758765
+      }
+    },
+    "pool1ke9h4mggr8ttf45ale5dv4ntkvuw2wkvm6la4mv02688xuy99qp": {
+      "stake": 1067544924964,
+      "ownerStake": 27596101291,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1kmmwsywmkus520vhk82k9uvtlx09r50ukn80pn2xr26jjmm6ltc": {
+      "stake": 19497629970,
+      "ownerStake": 19497629970,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/20",
+        "pledge": 1000000
+      }
+    },
+    "pool1ka0prnwsau3v7mrffw8zlk4gvq7aun2hsymlmxpkens7kkpm5aw": {
+      "stake": 1042453184189,
+      "ownerStake": 14779557713,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 1000000000
+      }
+    },
+    "pool1hgsnn5yr0g5rnhqqaf8g26ldsvuhavhkfmyxdjlparr6xvp425n": {
+      "stake": 3147699780,
+      "ownerStake": 3147699780,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1hghdaa7chn4hykkf9h0g0yqpz6j93gexvllz0w6p93y72saukmp": {
+      "stake": 1051858270218,
+      "ownerStake": 26031042308,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/5",
+        "pledge": 10000000
+      }
+    },
+    "pool1hfndr5ja3w7ptzhpjsds8f2eye3umg6nj8t7cq6s9vddj9q70k6": {
+      "stake": 1046720353378,
+      "ownerStake": 22240918915,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 16000000000
+      }
+    },
+    "pool1h2ag7yej9veur67zhu0gqk7caefsqetl7tq0qaymezfwyzh0ec7": {
+      "stake": 13872497391167,
+      "ownerStake": 479766641832,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 476000000000
+      }
+    },
+    "pool1hsxu3tfj0mfp2ncpg67rj3kywwqvu2p3k0cqr8fz0ghnxjfyy55": {
+      "stake": 11097653070,
+      "ownerStake": 1100000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1h4w59hqkzn4l546a8q0yjlf94jz9tv85qjca4pjc9lne58ft7pz": {
+      "stake": 45739254506,
+      "ownerStake": 15585983190,
+      "approximatePerformance": 0.965,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 100000000
+      }
+    },
+    "pool1h4n2c2g6c5saatezzs0mpe0z7rknmf33txulf8sl2q9v7e72nky": {
+      "stake": 2694749355363,
+      "ownerStake": 2585127728846,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 1400000000000
+      }
+    },
+    "pool1h4c9vz3f4rmkt2hc5y80kt4r5lcajq76hetu7ju29ley7acvclp": {
+      "stake": 22779638752,
+      "ownerStake": 22777670468,
+      "approximatePerformance": 0.925,
+      "poolParameters": {
+        "cost": 411000000,
+        "margin": "1/100",
+        "pledge": 1204000000
+      }
+    },
+    "pool1c8u8gmxepqu93adxh7c2pgrgutmyufkezpy454h06r24knmt7tk": {
+      "stake": 19508607305,
+      "ownerStake": 9510782662,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/100",
+        "pledge": 8000000000
+      }
+    },
+    "pool1cg74u7gq3kx2yjfzrwkrxnsk2kase7z7n6tr5vvdnstukdtjz5z": {
+      "stake": 199800000,
+      "ownerStake": 199800000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 1000000000
+      }
+    },
+    "pool1c65t3mxfvvxlm5fg3hlw2aakk3r4e9evmgycxjnu6hkyxu5yfmr": {
+      "stake": 10105963306,
+      "ownerStake": 10105963306,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1cap99vewanqjy4ejex7z5099hqkqdp0y2fatme9cdcsuy85rq06": {
+      "stake": 70244077724,
+      "ownerStake": 11234611128,
+      "approximatePerformance": 0.925,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "9/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1ext7qrwjzaxcdfhdnkq5mth59ukuu2atcg6tgqpmevpt7ratkta": {
+      "stake": 88726107332,
+      "ownerStake": 13867819421,
+      "approximatePerformance": 0.945,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 1000000000
+      }
+    },
+    "pool1egfg26w0syqly9qc65hz33gqv2qrzyka8tfue3ccsk3c73a56jp": {
+      "stake": 4700138494963,
+      "ownerStake": 268093074552,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/200",
+        "pledge": 8000000000
+      }
+    },
+    "pool1egu0kaxmv3zu54xd80p9u0dcalnywmfru0qnm43hjvfzqa5zw5x": {
+      "stake": 1198379386799,
+      "ownerStake": 31308363345,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/2",
+        "pledge": 10000000000
+      }
+    },
+    "pool1e0mu44gtaglzv3507aaw34eyhw6jea93d7zjywsr5yfh20h4zv8": {
+      "stake": 1127499131058,
+      "ownerStake": 15678748212,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/200",
+        "pledge": 10000000000
+      }
+    },
+    "pool1e0arfuamnymdkmjztvkryasxv9d8u8key27ajgc4mquz2nr8mk9": {
+      "stake": 577231575823,
+      "ownerStake": 27350015694,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 8000000000
+      }
+    },
+    "pool1e303tg8cmmgcjd89e30c7u7tz52ct0nguq4w4ryjj4422y99u23": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 100000000
+      }
+    },
+    "pool1ece99q865t5u0rmx88z4ev0cut0pqarvqg3mq4zmhde3wqsdhcq": {
+      "stake": 19794748697,
+      "ownerStake": 19497622798,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1eudmugh8x6ys05lh8kaaf2y0w0y52lf3s0gx0s70q694ksq6t7y": {
+      "stake": 9497624778,
+      "ownerStake": 9497624778,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 1000000000
+      }
+    },
+    "pool16rfj469javk35q62jg69yjsk4v5kw7x6qgd07x3hj3lss9l27ru": {
+      "stake": 29029105076,
+      "ownerStake": 19031455746,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/20",
+        "pledge": 5000000000
+      }
+    },
+    "pool169q6y3lmn58xkv05uw7pvxcrjc3qewz4u8vkkh4t0acxgrrjtup": {
+      "stake": 1064548964938,
+      "ownerStake": 34555605205,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "99/100",
+        "pledge": 30000000
+      }
+    },
+    "pool160pfyrqp00up4n3t2xmpa7smd38ffd3ephc0a79w6kzkvk2jfu3": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/100",
+        "pledge": 500000000
+      }
+    },
+    "pool160u5drqagq5k4mwghps36cvq7e6vcptm5r8tnkpcpkhwvrm2gad": {
+      "stake": 1058245306372,
+      "ownerStake": 33254937475,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 400000000,
+        "margin": "3/50",
+        "pledge": 1000000
+      }
+    },
+    "pool16hr6sjve8pcy9yucap0270rfdswsvpwfl2ksy8yp6vl9qk8u6zx": {
+      "stake": 1166203911517,
+      "ownerStake": 9000000000,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "199/10000",
+        "pledge": 9000000000
+      }
+    },
+    "pool16lk5fgc4zfthjza8fardhmj4jn2tcuzc2558pterlw4gykhsnep": {
+      "stake": 1049860169900,
+      "ownerStake": 31557240067,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 25000000000
+      }
+    },
+    "pool1mp96jpc2dtaruz0cazmljh03dev0969c4rq3wr6hnc4rjdxn8aw": {
+      "stake": 1883993582855,
+      "ownerStake": 461778346206,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 400000000000
+      }
+    },
+    "pool1m8crhnqj5k2kyszf5j2scshupystyxc887zdfrpzh6ty6eun4fx": {
+      "stake": 1082046553204,
+      "ownerStake": 21855967403,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/25",
+        "pledge": 15000000000
+      }
+    },
+    "pool1mtyjt95svreuxl46xnww3m09afp0pfggf6m7j8ewa5tc6qmndce": {
+      "stake": 19485268960,
+      "ownerStake": 9487452017,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/1",
+        "pledge": 500000000
+      }
+    },
+    "pool1mvgpsafktxs883p66awp7fplj73cj6j9hqdxzvqw494f7f0v2dp": {
+      "stake": 1231493149575,
+      "ownerStake": 1163151104341,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "1/2",
+        "pledge": 500000000
+      }
+    },
+    "pool1mv0kgwy8pghc0l2kr7dueeaf756a6pvwe0zp0umdpmug565r5hn": {
+      "stake": 1013002377863,
+      "ownerStake": 10993645146,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 0
+      }
+    },
+    "pool1mndyxsyw6yzgust4w2j2cfljwvj9s7k2059mm2f699c0ushgxe5": {
+      "stake": 11387546301,
+      "ownerStake": 9699771202,
+      "approximatePerformance": 0.895,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/2",
+        "pledge": 100000000
+      }
+    },
+    "pool1mlse64uvz922nax8s8xv044rr7qv5zv7ppuhrsx8ht4yq845ne8": {
+      "stake": 9497622490,
+      "ownerStake": 9497622490,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool1uqkr3aes23dd6t6n6q480tgasy8r2tz9250lhejlnr98cvu8jw9": {
+      "stake": 283893227701,
+      "ownerStake": 9497425881,
+      "approximatePerformance": 0.865,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 9000000000
+      }
+    },
+    "pool1uzsnj4eu37efwm0trm6nggwvq23nl7894wsnpq6pqp2eu0xdm9x": {
+      "stake": 19293952786,
+      "ownerStake": 9497629046,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 1000000000
+      }
+    },
+    "pool1uwg22a2nvattzh8sqydumja5xgh68r9mtdgy80hknm8xk8asj5h": {
+      "stake": 1795480345,
+      "ownerStake": 1795480345,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1ujafaae6h7quhldzwcs0psxa0mxczx7zay4vnggmu0sacycdgum": {
+      "stake": 1030270616160,
+      "ownerStake": 29824875932,
+      "approximatePerformance": 0.965,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 15000000000
+      }
+    },
+    "pool1u4x4ly6qyx9fs9k2lt7f9hpa2gftd52fee67jcmuhnt7qqae3x0": {
+      "stake": 10050514692056,
+      "ownerStake": 20532117660,
+      "approximatePerformance": 0.675,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/25",
+        "pledge": 10000000000
+      }
+    },
+    "pool1uhkxzvt9rj5s9emzr3uklwg2wdt7uky3aatgv9amhn2yz59laey": {
+      "stake": 16171042958,
+      "ownerStake": 16171042958,
+      "approximatePerformance": 0.955,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/20",
+        "pledge": 9000000000
+      }
+    },
+    "pool1a2r8szr9hqcrjw0jr0sy8mryqqm5tw4wumc23rqw8t252ah0w4m": {
+      "stake": 74355935817,
+      "ownerStake": 21107468561,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "1/25",
+        "pledge": 10000000000
+      }
+    },
+    "pool1a28qxpdfculv8c2q80jfjhy0s385w25uzpmcyzy5dkz9qwgtt35": {
+      "stake": 0,
+      "ownerStake": 0,
+      "approximatePerformance": 0.965,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/100",
+        "pledge": 100000000
+      }
+    },
+    "pool1a4rwdu0rykl0e48pcve7jyk02u96hm3h8lv2xf6t6vvdwngx4uk": {
+      "stake": 9497638418,
+      "ownerStake": 9497638418,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 1000000000
+      }
+    },
+    "pool1amrnegn99cdwj2zjr90lx2yamxg6s0d7t7vf7phpe94kga9gg86": {
+      "stake": 1608821105902,
+      "ownerStake": 191851936422,
+      "approximatePerformance": 0.985,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 90000000000
+      }
+    },
+    "pool1am8e6xumuc2nyrh6d36586r2yuctha0gsj029vpr8ahqvatwwrq": {
+      "stake": 19495449817,
+      "ownerStake": 9497624294,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 1000000000
+      }
+    },
+    "pool1al30ghsq7n335v9zdrnd0dpuva435c9yqtsrvphsfcgjytz3exp": {
+      "stake": 9497625042,
+      "ownerStake": 9497625042,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool170lseazv7knrlu2m7xzj852mngvn075x2vqgmdmdvmd05wwdxpy": {
+      "stake": 47614474098,
+      "ownerStake": 23530944034,
+      "approximatePerformance": 0.995,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000
+      }
+    },
+    "pool17n848ynu33sprccmef0hpj48tl9g298qut9uadfnhuyd6zwj4jc": {
+      "stake": 0,
+      "ownerStake": 28788154406,
+      "approximatePerformance": 0.875,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "19/1000",
+        "pledge": 100000000
+      }
+    },
+    "pool175lu3gm2rmvqpsrg6m82zvdmqaaryeqmsvjj7qyvvj20vxunc60": {
+      "stake": 21717473789,
+      "ownerStake": 21318665327,
+      "approximatePerformance": 0.905,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 9000000000
+      }
+    },
+    "pool174mw7e20768e8vj4fn8y6p536n8rkzswsapwtwn354dckpjqzr8": {
+      "stake": 1087286401534,
+      "ownerStake": 1000053629698,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 500000000,
+        "margin": "1/1",
+        "pledge": 100000000000000
+      }
+    },
+    "pool17mq6lu4ycqq03eq479q0jlfg96y8r0c9pgnfn3l3p8agkdswm7x": {
+      "stake": 19495103151,
+      "ownerStake": 9497623590,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 345000000,
+        "margin": "3/20",
+        "pledge": 100000000
+      }
+    },
+    "pool17lr0zh49w3leg4ya0ndkyea0dmpr8ksnqz5mhdpwn8zxqg56tte": {
+      "stake": 1050074035223,
+      "ownerStake": 31657841343,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "0/1",
+        "pledge": 1000000000
+      }
+    },
+    "pool1lzz7qqyx6g4dycdlppmftswxugyyw86rtzj3y6yyrj7wjl94rcx": {
+      "stake": 859976848391,
+      "ownerStake": 35957537495,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/25",
+        "pledge": 5000000000
+      }
+    },
+    "pool1l8ywwf6nfrfmrg6edj2qjh6rxpuepnzlsq9mhvjk9xr9swkht93": {
+      "stake": 1107568287063,
+      "ownerStake": 100454799019,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/10",
+        "pledge": 1000000000
+      }
+    },
+    "pool1lgd9u8nshsh60asqszepfaalt2c5c5w6fvc85xne9st3g3fwtvm": {
+      "stake": 1025204886642,
+      "ownerStake": 5203506655,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "9999/10000",
+        "pledge": 5000000000
+      }
+    },
+    "pool1l0cyfx72p6w0tufav24ydeurujfs5wxgysg32mt3u86yj9w442w": {
+      "stake": 15130715,
+      "ownerStake": 4000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "19/250",
+        "pledge": 2000000
+      }
+    },
+    "pool1lk6cxjaqd66t4t74q4gd9hymxapd93fvchhxt0uxwwprk9m8v6c": {
+      "stake": 1083023323952,
+      "ownerStake": 21856466941,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "3/40",
+        "pledge": 5000000000
+      }
+    },
+    "pool1lhknlva0yzrz6uty8wcct4eyurgz2ghan2y4mmudn3xkq5sdcus": {
+      "stake": 10015221035,
+      "ownerStake": 10000000,
+      "approximatePerformance": 0.885,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "79/1000",
+        "pledge": 4000000
+      }
+    },
+    "pool1lenzcfx02maescnpv8mk6gc6c59t0dramqucdgcvr4revw89xpz": {
+      "stake": 1056910683294,
+      "ownerStake": 17519879030,
+      "approximatePerformance": 1,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/50",
+        "pledge": 5000000000
+      }
+    },
+    "pool1laacstav6s62exgvg2f65c8nhz5qzmn665tyfyu4jl5sckpz52x": {
+      "stake": 25390989206,
+      "ownerStake": 25390989206,
+      "approximatePerformance": 0.975,
+      "poolParameters": {
+        "cost": 340000000,
+        "margin": "1/25",
+        "pledge": 2000000
+      }
+    }
+  }
+}
