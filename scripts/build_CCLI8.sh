@@ -31,7 +31,7 @@ read -p "Press [Enter] to continue ..."
 mv cabal.project.local cabal.project.local.bkp_${targetTag}
 
 echo ""
-echo "prepare cabal to build ${targetTag} codebase ..." 
+echo "prepare cabal to build ${targetTag} codebase ..."
 read -p "Press [Enter] to continue ..."
 cabal update
 cabal configure -O0 -w ghc-8.10.7
@@ -39,7 +39,7 @@ echo "package cardano-crypto-praos" >> cabal.project.local
 echo " flags: -external-libsodium-vrf" >> cabal.project.local
 
 echo ""
-echo "Now let's build and install cardano-cli ..." 
+echo "Now let's build and install cardano-cli ..."
 read -p "Press [Enter] to continue ..."
 
 mkdir -p ${HOME}/.local/bin/CIP-0094
@@ -77,6 +77,6 @@ ${HOME}/.local/bin/CIP-0094/cardano-cli --version
 echo ""
 echo "It's time to download getPoll.sh (helper script to participate to polls)"
 read -p "Press [Enter] to continue ..."
-curl -s -o getPoll.sh "https://raw.githubusercontent.com/cardano-foundation/CIP-0049-polls/main/scripts/getPoll.sh"
+curl -s -o getPoll.sh "https://raw.githubusercontent.com/cardano-foundation/CIP-0094-polls/main/scripts/getPoll.sh"
 chmod 755 getPoll.sh
 echo "ready to run ./getPoll.sh"

@@ -14,7 +14,7 @@ if [ -z ${CCLI8} ]; then
     else
 	    # if not found, let's look for the default cardano-cli exe
         CCLI8=$(whereis cardano-cli | cut -d' ' -f2)
-		if [ -z ${CCLI8} ]; then 
+		if [ -z ${CCLI8} ]; then
 		    echo "Warn: no cardano-cli exe found. exiting"
 			exit
 		fi
@@ -33,10 +33,10 @@ fi
 ####################  and Go  ###########################
 echo  "   _____ ____  ____                    ____
   / ___// __ \/ __ \      ____  ____  / / /
-  \__ \/ /_/ / / / /_____/ __ \/ __ \/ / / 
- ___/ / ____/ /_/ /_____/ /_/ / /_/ / / /  
-/____/_/    \____/     / .___/\____/_/_/   
-                      /_/                  
+  \__ \/ /_/ / / / /_____/ __ \/ __ \/ / /
+ ___/ / ____/ /_/ /_____/ /_/ / /_/ / / /
+/____/_/    \____/     / .___/\____/_/_/
+                      /_/
 "
 
 PS3='Which network should we look at? '
@@ -97,14 +97,14 @@ done
 echo "Query ${network}: ${txHash} metadata ..."
 
 
-tx=$(curl -sX POST "https://${network}.koios.rest/api/v0/tx_metadata"  -H "accept: application/json" -H "content-type: application/json"  -d "{\"_tx_hashes\":[\"${txHash}\"]}") 
+tx=$(curl -sX POST "https://${network}.koios.rest/api/v0/tx_metadata"  -H "accept: application/json" -H "content-type: application/json"  -d "{\"_tx_hashes\":[\"${txHash}\"]}")
 txMeta=$(echo $tx | jq -r .[0].metadata)
 
 
 if [[ -n $(echo $txMeta | jq -r '.["94"]') ]]; then
     echo "Looks promising: TX metadata has a CIP-0094 label"
-    #query the TX in CBOR format from cardano-foundation/CIP-0049-polls (interim solution for preprod)
-    txCBOR=$(curl -s GET "https://raw.githubusercontent.com/gufmar/CIP-0049-polls/main/networks/preprod/${txHash}/poll-CBOR.json")
+    #query the TX in CBOR format from cardano-foundation/CIP-0094-polls (interim solution for preprod)
+    txCBOR=$(curl -s GET "https://raw.githubusercontent.com/cardano-foundation/CIP-0094-polls/main/networks/preprod/${txHash}/poll.json")
     echo "$txCBOR" > /tmp/CIP-0094_${txHash}-CBOR.json
 	echo ""
     ${CCLI8} governance answer-poll --poll-file /tmp/CIP-0094_${txHash}-CBOR.json 1> /tmp/CIP-0094_${txHash}-poll-answer.json
@@ -113,7 +113,3 @@ if [[ -n $(echo $txMeta | jq -r '.["94"]') ]]; then
 else
     echo "Warn: TX has no CIP-0094 metadata label. Exiting"
 fi
-
-
-
-
