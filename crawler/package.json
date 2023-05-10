@@ -23,16 +23,17 @@
       "hash": "f64a3aad89062968964ebeadf5089a3847fac03e7e0a0ef2d3b184a856d8ef2f"
     },
     "to": {
-      "slot": 27689710,
-      "hash": "4040eb29769b0a6508fc840f3ff90ad37c1ea150f629a6a4c1ed5c97ee962061"
+      "slot": 27849432,
+      "hash": "fb4765d4bba2299813b20023258f451e3c60bee0b60a3ebf6205414d0eedc74d"
     },
-    "poll": {
-      "hash": "62c6be72bdf0b5b16e37e4f55cf87e46bd1281ee358b25b8006358bf25e71798",
-      "answers": {
-        "0": "dissatisfied",
-        "1": "no opinion",
-        "2": "satisfied"
-      }
-    }
+    "genesisDelegates": [
+      "aae9293510344ddd636364c2673e34e03e79e3eefa8dbaa70e326f7d",
+      "d15422b2e8b60e500a82a8f4ceaa98b04e55a0171d1125f6c58f8758",
+      "b3b539e9e7ed1b32fbf778bf2ebf0a6b9f980eac90ac86623d11881a",
+      "7c64eb868b4ef566391a321c85323f41d2b95480d7ce56ad2abcb022",
+      "de7ca985023cf892f4de7f5f1d0a7181668884752d9ebb9e96c95059",
+      "1e113c218899ee7807f4028071d0e108fc790dade9fd1a0d0b0701ee",
+      "fd637b08cc379ef7b99c83b416458fcda8a01a606041779331008fb9"
+    ]
   }
 }
