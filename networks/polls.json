@@ -1,0 +1,23 @@
+{
+  "networks": {
+    "preprod": [
+      {
+        "title": "RSS Satisfaction",
+        "tx_id": "d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2",
+        "description": "Trial poll: Reward sharing scheme satisfaction",
+        "epoch_cast": 67,
+        "epoch_delegation": 69,
+        "epoch_report": 70
+      }
+    ],
+  "preview": [
+
+    ],
+  "guild": [
+
+    ],
+  "mainnet": [
+
+    ]
+  }
+}
