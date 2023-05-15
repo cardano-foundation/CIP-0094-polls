@@ -13,6 +13,11 @@ This repository contains instructions and data for participating in SPO polls as
 | ---      | ---     | ---  |
 | May 2023 | PreProd | [d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2](networks/preprod/d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2/) |
 
+There are CIP-0094 dashboards to keep track of the previous votes cast by the pools.
+
+- Adastats.net [[Preprod Satisfaction poll](https://adastat.net/polls/62c6be72bdf0b5b16e37e4f55cf87e46bd1281ee358b25b8006358bf25e71798)]
+- Cardanoscan.io  [[PrepProd](https://preprod.cardanoscan.io/spo-polls/)]   [[Mainnet](https://cardanoscan.io/spo-polls/)]
+
 ## How to participate?
 
 ### Pre-requisites
