@@ -15,7 +15,7 @@ This repository contains instructions and data for participating in SPO polls as
 
 There are CIP-0094 dashboards to keep track of the previous votes cast by the pools.
 
-- Adastats.net [[PreProd](https://preprod.adastat.net/polls)]   [[Mainnet](https://adastat.net/polls)]
+- Adastat.net [[PreProd](https://preprod.adastat.net/polls)]   [[Mainnet](https://adastat.net/polls)]
 - Cardanoscan.io  [[PreProd](https://preprod.cardanoscan.io/spo-polls/)]   [[Mainnet](https://cardanoscan.io/spo-polls/)]
 
 ## How to participate?
