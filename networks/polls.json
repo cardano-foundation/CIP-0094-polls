@@ -7,7 +7,15 @@
         "description": "Trial poll: Reward sharing scheme satisfaction",
         "epoch_cast": 67,
         "epoch_delegation": 69,
-        "epoch_report": 70
+        "epoch_report": 69,
+        "from": {
+          "slot": 27260357,
+          "hash": "f64a3aad89062968964ebeadf5089a3847fac03e7e0a0ef2d3b184a856d8ef2f"
+        },
+        "to": {
+          "slot": 29030399,
+          "hash": "06342205d60b85a0309591b414bfcf8423f0654bb8e1faa3cc9bf86adcab50f2"
+        }
       }
     ],
   "preview": [
@@ -17,6 +25,22 @@
 
     ],
   "mainnet": [
+      {
+        "title": "Reward Sharing Scheme: k and minPoolCost",
+        "tx_id": null,
+        "description": "Query preferences for k and minPoolCost",
+        "epoch_cast": 412,
+        "epoch_delegation": 414,
+        "epoch_report": 416,
+        "from": {
+          "slot": null,
+          "hash": null
+        },
+        "to": {
+          "slot": 94348799,
+          "hash": null
+        }
+      }
 
     ]
   }
