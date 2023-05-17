@@ -27,14 +27,14 @@
   "mainnet": [
       {
         "title": "Reward Sharing Scheme: k and minPoolCost",
-        "tx_id": "fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8 ",
+        "tx_id": "fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8",
         "description": "Query preferences for k and minPoolCost",
         "epoch_cast": 412,
         "epoch_delegation": 414,
         "epoch_report": 416,
         "from": {
-          "slot": 92754709,
-          "hash": "be0c25b32fecf411b4d82acd3b556402a6e5634000f6882b625ab8eae8d760c5"
+          "slot": 92754624,
+          "hash": "b14301182aa297e0c3abf623b99e95bca0f3aeb812b2f87e0843038d0a663cd1"
         },
         "to": {
           "slot": 94348799,

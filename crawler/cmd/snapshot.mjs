@@ -29,8 +29,9 @@ const snapshot = Object.assign(
   await node.query('rewardsProvenance\'')
 )
 
+fs.mkdirSync(path.join('data', hash))
 fs.writeFileSync(
-  path.join('data', 'stake-distribution.json'),
+  path.join('data', hash, 'stake-distribution.json'),
   JSON.stringify(snapshot, null, 2)
 )
 
