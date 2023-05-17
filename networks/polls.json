@@ -27,7 +27,7 @@
   "mainnet": [
       {
         "title": "Reward Sharing Scheme: k and minPoolCost",
-        "tx_id": "fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8 ",
+        "tx_id": "fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8",
         "description": "Query preferences for k and minPoolCost",
         "epoch_cast": 412,
         "epoch_delegation": 414,
