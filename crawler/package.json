@@ -1,0 +1,39 @@
+{
+  "name": "cip0094-crawler",
+  "version": "1.0.0",
+  "description": "Crawl the chain for poll results",
+  "main": "index.js",
+  "repository": "git@github.com:cardano-foundation/cip-0094.git",
+  "author": "KtorZ <matthias.benkort@cardanofoundation.org>",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "bech32": "^2.0.0",
+    "blake2b": "^2.1.4",
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "snapshot": "node cmd/snapshot.mjs",
+    "crawl": "node cmd/crawl.mjs"
+  },
+  "config": {
+    "ogmiosUrl": "<OGMIOS URL>",
+    "from": {
+      "slot": 27260357,
+      "hash": "f64a3aad89062968964ebeadf5089a3847fac03e7e0a0ef2d3b184a856d8ef2f"
+    },
+    "to": {
+      "slot": 27849432,
+      "hash": "fb4765d4bba2299813b20023258f451e3c60bee0b60a3ebf6205414d0eedc74d"
+    },
+    "genesisDelegates": [
+      "aae9293510344ddd636364c2673e34e03e79e3eefa8dbaa70e326f7d",
+      "d15422b2e8b60e500a82a8f4ceaa98b04e55a0171d1125f6c58f8758",
+      "b3b539e9e7ed1b32fbf778bf2ebf0a6b9f980eac90ac86623d11881a",
+      "7c64eb868b4ef566391a321c85323f41d2b95480d7ce56ad2abcb022",
+      "de7ca985023cf892f4de7f5f1d0a7181668884752d9ebb9e96c95059",
+      "1e113c218899ee7807f4028071d0e108fc790dade9fd1a0d0b0701ee",
+      "fd637b08cc379ef7b99c83b416458fcda8a01a606041779331008fb9"
+    ]
+  }
+}
