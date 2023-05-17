@@ -1,0 +1,72 @@
+{
+    "94": {
+        "map": [
+            {
+                "k": {
+                    "int": 0
+                },
+                "v": {
+                    "list": [
+                        {
+                            "string": "Which setup would you prefer to be put in place from Q3 2023 onw"
+                        },
+                        {
+                            "string": "ards?"
+                        }
+                    ]
+                }
+            },
+            {
+                "k": {
+                    "int": 1
+                },
+                "v": {
+                    "list": [
+                        {
+                            "list": [
+                                {
+                                    "string": "Keep k at 500 and minPoolCost at 340 ada"
+                                }
+                            ]
+                        },
+                        {
+                            "list": [
+                                {
+                                    "string": "Keep k at 500 and halve minPoolCost to 170 ada"
+                                }
+                            ]
+                        },
+                        {
+                            "list": [
+                                {
+                                    "string": "Increase k to 1000 and keep minPoolCost at 340 ada"
+                                }
+                            ]
+                        },
+                        {
+                            "list": [
+                                {
+                                    "string": "Increase k to 1000 and halve minPoolCost to 170 ada"
+                                }
+                            ]
+                        },
+                        {
+                            "list": [
+                                {
+                                    "string": "I would prefer to abstain"
+                                }
+                            ]
+                        },
+                        {
+                            "list": [
+                                {
+                                    "string": "None of the provided options"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
