@@ -1,10 +1,10 @@
 # Mainnet Reward Sharing Scheme: k and minPoolCost poll
 
-In the Cardano [Mainnet](https://book.world.dev.cardano.org/environments.html#mainnet) there is the transaction with the ID
+In the Cardano [Mainnet](https://book.world.dev.cardano.org/environments.html#production-mainnet) there is the transaction with the ID
 
 ```fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8``` 
 
-which acts as the first test run in epoch 412-413 (17 - 24 May 2023)
+which acts as the first CIP-0094 based Stake Pool Operator Poll in epoch 412-413 (17 - 24 May 2023)
 
 The question asked in legible plain text is:
 
