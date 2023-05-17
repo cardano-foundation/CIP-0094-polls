@@ -126,7 +126,7 @@ carrying a survey's answer as `answer.signed`, you can verify its validity via:
 ```
 $ cardano-cli governance verify-poll \
   --poll-file poll.json \
-  --signed-tx-file answer.signed
+  --tx-file answer.signed
 ```
 
 On success, this should outputs something like:
