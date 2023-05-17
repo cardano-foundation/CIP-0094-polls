@@ -18,4 +18,4 @@ Which setup would you prefer to be put in place from Q3 2023 onwards?
 [5] None of the provided options
 ```
 
-How to participate as a Mainnet Stake Pool Operator is described [here](../../../readme.md)
+How to participate as a Mainnet Stake Pool Operator is described [here](https://github.com/cardano-foundation/CIP-0094-polls/blob/main/TUTORIAL.md)
