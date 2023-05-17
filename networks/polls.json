@@ -4,7 +4,6 @@
       {
         "title": "RSS Satisfaction",
         "tx_id": "d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2",
-	"poll_hash": "62c6be72bdf0b5b16e37e4f55cf87e46bd1281ee358b25b8006358bf25e71798",
         "description": "Trial poll: Reward sharing scheme satisfaction",
         "epoch_cast": 67,
         "epoch_delegation": 69,
@@ -29,7 +28,6 @@
       {
         "title": "Reward Sharing Scheme: k and minPoolCost",
         "tx_id": "fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8",
-	"poll_hash": "96861fe7da8d45ba5db95071ed3889ed1412929f33610636c072a4b5ab550211",
         "description": "Query preferences for k and minPoolCost",
         "epoch_cast": 412,
         "epoch_delegation": 414,
