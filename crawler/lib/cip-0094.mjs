@@ -56,10 +56,6 @@ export function collectAnswer(poll, transaction, resolve, reject) {
         })
       }
 
-      // NOTE: Doing this _here_ is up-to-debate. We could only count
-      // valid submissions.
-      poll.participants.add(pool.id)
-
       // Ensure valid answer
       const choice = poll.answers[answer.index]
       if (!choice) {
@@ -69,6 +65,11 @@ export function collectAnswer(poll, transaction, resolve, reject) {
           pool: pool.id,
         })
       }
+
+      // NOTE
+      // Doing this here allows pools that have submitted a well-formed but invalid answer to
+      // recast. Mistakes can happen, so we only count the first _valid_ answer.
+      poll.participants.add(pool.id)
 
       // Count answer
       console.log(`${pool.id} → ${choice}`)
