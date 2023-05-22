@@ -114,7 +114,8 @@ was properly published.
 ## Example:
 ```
 cardano-cli transaction sign --signing-key-file payment.skey --signing-key-file node.skey --mainnet --tx-body-file answer.tx --out-file answer.signed
-cardano-cli transaction txid --tx-body-file answer.signed
+cardano-cli transaction submit --tx-file answer.signed
+cardano-cli transaction txid --tx-file answer.signed
 ```
 
 ## Verifying Answers
