@@ -12,7 +12,7 @@ This repository contains instructions and data for participating in SPO polls as
 | Date     | Network | Poll |
 | ---      | ---     | ---  |
 | May 2023 | PreProd | [d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2](networks/preprod/d8c1b1d871a27d74fbddfa16d28ce38288411a75c5d3561bb74066bcd54689e2/) |
-| May 2023 | Mainnet | [fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8](networks/preprod/fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8/) |
+| May 2023 | Mainnet | [fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8](networks/mainnet/fae7bda85acb99c513aeab5f86986047b6f6cbd33a8e11f11c5005513a054dc8/) |
 
 There are CIP-0094 dashboards to keep track of the previous votes cast by the pools.
 
