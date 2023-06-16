@@ -105,10 +105,18 @@ $ cardano-cli transaction build \
 You'll need to fill-in `--tx-in` & `--change-address` with their corresponding
 values.
 
-From there, you can sign `answer.tx` using your stake pool cold key and any
-necessary payment key; then submit the result as usual. If everything goes
-well, the cardano-cli should display a transaction id that you can track
-on-chain to ensure your reply to the survey was properly published.
+From there, you can sign `answer.tx` using your stake pool cold key (node.skey)
+and any necessary payment key; then submit the result as usual. When signing the
+transaction using cardano-cli you can specify `txid` which will display a 
+transaction id that you can track on-chain to ensure your reply to the survey 
+was properly published.
+
+## Example:
+```
+cardano-cli transaction sign --signing-key-file payment.skey --signing-key-file node.skey --mainnet --tx-body-file answer.tx --out-file answer.signed
+cardano-cli transaction submit --tx-file answer.signed
+cardano-cli transaction txid --tx-file answer.signed
+```
 
 ## Verifying Answers
 
