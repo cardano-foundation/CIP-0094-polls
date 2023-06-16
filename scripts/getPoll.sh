@@ -104,7 +104,7 @@ txMeta=$(echo $tx | jq -r .[0].metadata)
 if [[ -n $(echo $txMeta | jq -r '.["94"]') ]]; then
     echo "Looks promising: TX metadata has a CIP-0094 label"
     #query the TX in CBOR format from cardano-foundation/CIP-0094-polls (interim solution for preprod)
-    txCBOR=$(curl -s GET "https://raw.githubusercontent.com/cardano-foundation/CIP-0094-polls/main/networks/preprod/${txHash}/poll.json")
+    txCBOR=$(curl -s GET "https://raw.githubusercontent.com/cardano-foundation/CIP-0094-polls/main/networks/${network}/${txHash}/poll.json")
     echo "$txCBOR" > /tmp/CIP-0094_${txHash}-CBOR.json
 	echo ""
     ${CCLI8} governance answer-poll --poll-file /tmp/CIP-0094_${txHash}-CBOR.json 1> /tmp/CIP-0094_${txHash}-poll-answer.json
