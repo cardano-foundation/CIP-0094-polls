@@ -19,14 +19,15 @@ export class Ogmios {
 
   constructor(url) {
     console.log(`Connecting to '${url}'...`)
-    this.#ws = new WebSocket(url)
+    this.#ws = new WebSocket(url, { maxPayload: 1024**3 })
     this.#queue = new MessageQueue()
     this.#ready = new Promise((resolve, reject) => {
+      this.#ws.once('error', reject)
       this.#ws.once('open', () => {
         console.log(`Connection established`)
+        this.#ws.off('error', reject)
         resolve()
       })
-      this.#ws.once('error', reject)
     })
   }
 
@@ -115,7 +116,14 @@ export class Ogmios {
     await this.#ready
 
     return new Promise((resolve, reject) => {
+      const n = 12 * 60 * 60 * 1000
+      const timeout = setTimeout(() => reject(`no response from the server within last ${n / 1000}s`), n)
+
+      this.#ws.once('error', reject)
       this.#ws.once('message', (msg) => {
+        this.#ws.off('error', reject)
+        clearTimeout(timeout)
+
         const { methodname, result } = JSON.parse(msg)
 
         if (methodname !== 'Query') {
@@ -132,6 +140,7 @@ export class Ogmios {
       })
 
       console.log(`Querying ${JSON.stringify(query)}`)
+
       this.#ws.send(Ogmios.#wsp('Query', { query }))
     })
   }

@@ -29,6 +29,8 @@ const snapshot = Object.assign(
   await node.query('rewardsProvenance\'')
 )
 
+console.log(`Snapshot fetched, found ${Object.keys(snapshot.pools || []).length} stake pools.`)
+
 fs.mkdirSync(path.join('data', hash))
 fs.writeFileSync(
   path.join('data', hash, 'stake-distribution.json'),
