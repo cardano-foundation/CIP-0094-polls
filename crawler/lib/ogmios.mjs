@@ -38,29 +38,27 @@ export class Ogmios {
 
     return new Promise((resolve, reject) => {
       this.#ws.once('message', (msg) => {
-        const { methodname, result } = JSON.parse(msg)
-        if (methodname !== 'FindIntersect') {
+        const { id, result, error } = JSON.parse(msg)
+        if (id !== 'findIntersection') {
           reject(`Unexpected response from server: ${msg}`)
           return
         }
 
-        if (!('IntersectionFound' in result)) {
-          reject(`Intersection not found. Node tip at: ${JSON.stringify(result.tip)}`)
+        if (error) {
+          reject(`Intersection not found. Node tip at: ${JSON.stringify(error.data.tip)}`)
           return
         }
 
-        const { point: intersection } = result.IntersectionFound
-
-        this.#listener = Ogmios.#onRequestNext(this.#ws, this.#queue, to)
+        this.#listener = Ogmios.#onNextBlock(this.#ws, this.#queue, to)
         this.#ws.on('message', this.#listener)
         for (let i = 0; i < MAX_IN_FLIGHT; i += 1) {
-          this.#ws.send(Ogmios.#wsp('RequestNext', {}, i))
+          this.#ws.send(Ogmios.#rpc('nextBlock', {}, i))
         }
 
-        resolve(intersection)
+        resolve(result.intersection)
       })
 
-      this.#ws.send(Ogmios.#wsp('FindIntersect', { points: [from] }))
+      this.#ws.send(Ogmios.#rpc('findIntersection', { points: [from] }))
     })
   }
 
@@ -89,34 +87,34 @@ export class Ogmios {
 
     return new Promise((resolve, reject) => {
       this.#ws.once('message', (msg) => {
-        const { methodname, result } = JSON.parse(msg)
+        const { id, result, error } = JSON.parse(msg)
 
-        if (methodname !== 'Acquire') {
+        if (id !== 'acquireLedgerState') {
           reject(`Unexpected response from server: ${msg}`)
           return
         }
 
-        if (result.AcquireFailure) {
-          reject(`Unable to acquire requested point: ${JSON.stringify(result)}`)
+        if (error) {
+          reject(`Unable to acquire requested point: ${JSON.stringify(error)}`)
           return
         }
 
-        const acquired = result.AcquireSuccess.point
+        const acquired = result.point
 
         console.log(`Acquired ${acquired.slot} / ${acquired.hash}`)
-        resolve(result)
+        resolve(acquired)
       })
 
       console.log(`Acquiring ${point.slot} / ${point.hash}...`)
-      this.#ws.send(Ogmios.#wsp('Acquire', { point }))
+      this.#ws.send(Ogmios.#rpc('acquireLedgerState', { point }))
     })
   }
 
-  async query(query) {
+  async query(query, params = {}) {
     await this.#ready
 
     return new Promise((resolve, reject) => {
-      const n = 12 * 60 * 60 * 1000
+      const n = 60 * 60 * 1000
       const timeout = setTimeout(() => reject(`no response from the server within last ${n / 1000}s`), n)
 
       this.#ws.once('error', reject)
@@ -124,15 +122,15 @@ export class Ogmios {
         this.#ws.off('error', reject)
         clearTimeout(timeout)
 
-        const { methodname, result } = JSON.parse(msg)
+        const { id, result, error } = JSON.parse(msg)
 
-        if (methodname !== 'Query') {
+        if (id !== query) {
           reject(`Unexpected response from server: ${msg}`)
           return
         }
 
-        if (result === 'QueryUnavailableInCurrentEra' || result.eraMismatch) {
-          reject(`Query failed: ${JSON.stringify(result)}`)
+        if (error) {
+          reject(`Query failed: ${JSON.stringify(error)}`)
           return
         }
 
@@ -141,42 +139,33 @@ export class Ogmios {
 
       console.log(`Querying ${JSON.stringify(query)}`)
 
-      this.#ws.send(Ogmios.#wsp('Query', { query }))
+      this.#ws.send(Ogmios.#rpc(query, params))
     })
   }
 
-  static #wsp(methodname, args = {}, mirror = null) {
+  static #rpc(method, params = {}, id = method) {
     return JSON.stringify({
-      type: 'jsonwsp/request',
-      version: '1.0',
-      servicename: 'ogmios',
-      methodname,
-      args,
-      mirror
+      jsonrpc: '2.0',
+      method,
+      params,
+      id
     })
   }
 
-  static #onRequestNext(ws, queue, to) {
+  static #onNextBlock(ws, queue, to) {
     return (msg) => {
-      const { methodname, result, reflection } = JSON.parse(msg)
+      const { id, result } = JSON.parse(msg)
 
-      if ('RollForward' in result) {
-        rollForward(result, reflection)
+      if (result.direction == 'forward') {
+        rollForward(result, id)
       } else {
-        rollBackward(result, reflection)
+        rollBackward(result, id)
       }
     }
 
-    function rollForward(result, reflection) {
-      const block = result.RollForward.block.byron ||
-        result.RollForward.block.shelley ||
-        result.RollForward.block.allegra ||
-        result.RollForward.block.mary ||
-        result.RollForward.block.alonzo ||
-        result.RollForward.block.babbage
-
-      const slot = block.header.slot
-      const hash = block.headerHash || block.header.hash
+    function rollForward(result) {
+      const slot = block.slot
+      const hash = block.header.hash
 
       if (slot > to.slot) {
         queue.push({ done: true })
@@ -184,9 +173,9 @@ export class Ogmios {
         queue.push({
           done: false,
           handle(next) {
-            ws.send(Ogmios.#wsp('RequestNext'), {})
+            ws.send(Ogmios.#rpc('nextBlock'))
 
-            const transactions = block.body || []
+            const transactions = block.transactions || []
             const header = { slot, hash }
 
             next({ header, transactions })
@@ -195,9 +184,9 @@ export class Ogmios {
       }
     }
 
-    function rollBackward(result, reflection) {
-      if (reflection === 0) {
-        ws.send(Ogmios.#wsp('RequestNext'), {})
+    function rollBackward(result, id) {
+      if (id === 0) {
+        ws.send(Ogmios.#rpc('nextBlock'))
         return
       }
 

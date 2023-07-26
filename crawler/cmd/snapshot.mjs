@@ -26,7 +26,7 @@ await node.acquire(point)
 
 const snapshot = Object.assign(
   { point },
-  await node.query('rewardsProvenance\'')
+  (await node.query('queryLedgerState/rewardsProvenance')).rewardsProvenance
 )
 
 console.log(`Snapshot fetched, found ${Object.keys(snapshot.pools || []).length} stake pools.`)
