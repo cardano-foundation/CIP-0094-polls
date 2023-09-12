@@ -1,0 +1,567 @@
+[
+	[
+		"Lower fixed costs make smaller pool's delegators less be slashed"
+	],
+	[
+		"Let's not race to the bottom. Don't price out smaller pools!"
+	],
+	[
+		"Increase the k value by a little and see how it goes.",
+		"Fixed cost 170 is OK.",
+		"But on the same time , Minimum margin should be increase."
+	],
+	[
+		"Lower minfee won't stop MPO, but harm xSPOs & decentralization.",
+		"CIP-50. Our vote offers more saturated pools and xSPO-growth"
+	],
+	[
+		"A lot of low-saturated Pools are developing tools for Cardano.",
+		"A lot of charity is done by low-saturated pools.",
+		"Lowering the current min-fee will not only bleed them out.",
+		"They also may not be able to continue to contribute anymore."
+	],
+	[
+		"I don't think k1000 is the right path yet without other changes."
+	],
+	[
+		"We prefer to change 1 parameter at a time and reward delegates."
+	],
+	[
+		"My option would be to remove the minimum fee",
+		"Add a minimum variable fee of 3-5%",
+		"This would help SSPO to compete for stake"
+	],
+	[
+		"Having the poolMargin set to 0%, the minPoolCost is what",
+		"currently allows me to keep the pool running.",
+		"Maybe the reduction makes more sense when ADA price increases."
+	],
+	[
+		"K = 1000, minPoolCost = 0, minVariableFee = 5%",
+		"This will keep the rewards for both operators and delegators",
+		"at the current level, but increase decentralization by 2 times"
+	],
+	[
+		"lowering the pool cost is good when ADA goes up"
+	],
+	[
+		"Avoid changing 50%+ from the original param per time"
+	],
+	[
+		"minPoolCost should be set to 0, a new minMargin parameter ",
+		"should be introduced instead (say 5% minimum variable fee).",
+		"Saturation should also be a function of the pledge."
+	],
+	[
+		"Please spread the 340 cost across all rewards from the epoch"
+	],
+	[
+		"MinMargin=0.05,k=750,minPoolCost=170"
+	],
+	[
+		"Please include a minMargin option, prevent race to the bottom"
+	],
+	[
+		"The k value should be 750 to measure the effect once.",
+		"minPoolCost should be 170 and minMargin should be 0.5%.",
+		"A mechanism to set the margin in steps",
+		"according to the amount of stake is desirable."
+	],
+	[
+		"(k,minPoolMargin,minPoolCost)=(750,0.05,85) k=1000at2024"
+	],
+	[
+		"The correct option should be the Minimum Margin %."
+	],
+	[
+		"Our desired parameter change would look like this: ",
+		"1. Step: change minPoolCost to 30ADA",
+		"2. Step: wait for  at least 12 epochs",
+		"3. Step: change k to 1000 to disrupte current delegation "
+	],
+	[
+		"Would like k=500 with zero min fee"
+	],
+	[
+		"I went with 1000k and keeping min fee at 340.",
+		"We are minting blocks at a decent rate.",
+		"The min fee helps our pool remain profitable."
+	],
+	[
+		"We all want Cardano to succeed",
+		"To reach this goal, we need a stable network run by ",
+		"a set of sufficiently decentralized, reliable ",
+		"operators.",
+		"In the current environment, we believe that an ",
+		"increase of k would have detrimental effects on the .",
+		"ecosystem",
+		"The minPoolCost parameter is set appropriately for ",
+		"the current market valuation, but should eventually ",
+		"be replaced with a minMargin parameter."
+	],
+	[
+		"Fixed margin setups don't work well for decentralize,",
+		"but I'm in favor of lower minimums.",
+		"k=1000 This change won't break your network,",
+		"However, it may reduce dispersibility.",
+		"If the ADA holder has a policy of choosing a delegatee,",
+		"We need to know the pools that threaten that decentralize.",
+		"If not functioning properly in improving decentralization,",
+		"I will devise a function that automatically selects delegate."
+	],
+	[
+		"I think periodic changes in parameters are necessary ",
+		"because parameter changes also create fluidity.",
+		"However, there are not many options in this case, ",
+		"and I thought that this option would have a great impact."
+	],
+	[
+		"fix a0 effect first"
+	],
+	[
+		"None of the options go to the heart of the problem.",
+		"Centralized exchanges pose a serious threat to decentralization",
+		"in the long run.",
+		"Monetary expansion suffers from double taxation",
+		"reducing the propensity of small stakeholders to move.",
+		"The pledge does not work as it should",
+		"in ensuring skin in the game.",
+		"We need to review this much more thoroughly."
+	],
+	[
+		"Decentralize  is the goal post "
+	],
+	[
+		"This choice is better for decentralization and persistence"
+	],
+	[
+		"I represent the votes of the community,",
+		"I believe they are the ones who really decide this parameter,",
+		"Vote at https://t.me/duantrencardano/794"
+	],
+	[
+		"These are not the parameter changes you are looking for."
+	],
+	[
+		"I'm all in for raising k to 1000, however I don't think it's",
+		"time for that in the current environment. Multipool splitting",
+		"is not something I'd like to encourage, so until proper",
+		"disincentives are in place, I'm not sure it would be a",
+		"great idea. I'd set minPoolCost to 40-50 USD per epoch,",
+		"and introduce a minVariableFee of ~3-4%. Yes, this would mean",
+		"minPoolCost should be adjusted often, following ADA valuation.",
+		"40-50 USD I believe is the bare minimum all SPOs are definitely",
+		"paying to run their pools (the majority of them for sure),",
+		"so I can't see why it would be beneficial to set it any lower.",
+		"The minVariableFee would help the smaller pools to have",
+		"a chance against large multipools and exchanges.",
+		"We're going for number one!"
+	],
+	[
+		"I choose to abstain from this vote as a large portion",
+		"of my delegation comes from the Cardano Foundation's",
+		"delegation program. To align with CF's future filter",
+		"criterion for delegation, my stake pool will adjust its",
+		"parameters accordingly. Without their support, my pool",
+		"struggles to generate more than 2 blocks per year due to",
+		"insufficient stake. At that rate, the current infrastructure",
+		"costs will surpass the 340 ADA per block fixed fee,",
+		"rendering the pool unsustainable and requiring downsizing.",
+		"This downsizing would discourage potential delegators from",
+		"moving their stake into my pool. I feel constrained as",
+		"agreeing to reduce the minimum fixed fee presents",
+		"challenges for my pool's sustainability, assuming CF does",
+		"not redelegate. On the other hand, not aligning my pool",
+		"parameters with CF's filter criterion also poses",
+		"difficulties, as it could result in losing their delegation.",
+		"Therefore, I've chosen to abstain, hoping for the best. As a",
+		"nano pool, I'm just a tiny fish relying on a single whale. My",
+		"only option is to adapt and go with the flow of the",
+		"changing tides."
+	],
+	[
+		"minPoolCost to 0",
+		"K to 1000 or more"
+	],
+	[
+		"KARMA believes strongly that we are voting with the",
+		"wrong choices. We have advocated and continue to believe",
+		"that minPoolCost should be set to 0 and k should be",
+		"incrementally moved to 750 as a gradual step toward 1000",
+		"More importantly than either of those, we believe that",
+		"the pledge of a pool owner should be valued much higher.",
+		"So to do that, we believe the a0 parameter should be a",
+		"focus immediately. There are too many pool splitters",
+		"who are taking advantage of the fact that pledge has no",
+		"meaning and have spun up un-helpful redundant pools",
+		"that do NOT represent decentralization. We believe",
+		"a0 should be immediately changed to at least 1 with a",
+		"commitment to review in 90 days for consideration of",
+		"further changes."
+	],
+	[
+		"We vote for freedom and decentralization. We believe that SPOs s",
+		"hould have the freedom of choice to lower the minPoolCost to inc",
+		"rease competitiveness. We are pro minMargin parameter. There sho",
+		"uld be a lower bound that allows professional operators to run a",
+		" business. We cannot solely rely on hobbyists to achieve a stabl",
+		"e and secure network. Our vote for decentralization is the profi",
+		"t-maximizing choice, as the success of Cardano and price appreci",
+		"ation of ADA outweighs the lower income from our pools."
+	],
+	[
+		"MALU Pool vote cast as per the outcome of the telegram poll",
+		"If you haven’t already please join for future votes.",
+		"Make your voice heard and your stake count.",
+		"All future votes will be discussed there first.",
+		"Link to join the group is in my twitter bio.",
+		"Cardano ftw!",
+		"LFG Voltaire!",
+		"Keep being awesome MALU Pool peeps."
+	],
+	[
+		"STR8 Stake Pool strongly believes static minPoolCost of 340 ADA",
+		"should be replaced with variable minPoolCost of 5 percent",
+		"to fix decentralization incentives",
+		"before increasing k.",
+		"Full article: http://bitly.ws/show/F8Vp"
+	],
+	[
+		"This is the first step towards a minPoolCost of 30 Ada ",
+		"and a better decentralisation."
+	],
+	[
+		"I hope that Single and Multi pool to remember",
+		"that we are working together to make",
+		"Cardano the best.",
+		"This is how we win.",
+		"I would removed the fix fee and made minimum margin fee.",
+		"Changing 1 parameter at the time it will give us better",
+		"picture overall rather than 2 and break things around."
+	],
+	[
+		"K and minCost won't work for decentralization.",
+		" ",
+		" Progressive model of minCost could improve decentralization. ",
+		" iIncrease minCost as stake increase."
+	],
+	[
+		"Other parameters need to change prior to analyzing (k) ",
+		" 1) Increase poolPledgeInfluence (aO) parameter",
+		" 2) Examine effects of minPoolMargin vs minPoolCost"
+	],
+	[
+		"It is important to increase k to promote decentralization.",
+		"Not desirable for multiple pool operators to split their pools."
+	],
+	[
+		"PET pool votes for increasing K=1000, because: ",
+		"a) Contributes with decentralization ",
+		"b) Helps small pools to mint more blocks ",
+		"PET pool votes for keeping Min fee=340, because: ",
+		"c) Small pools can afford servers expenses ",
+		"d) Mission Driven pools need this income for their missions ",
+		"e) Lowering min fees could turn into an embarrassing battle ",
+		"between small pools lowering fees more and more. Then, lot of ",
+		"SPOs without enough $ will retire bc they can not afford ",
+		"their server costs and messing up with decentralization. ",
+		""
+	],
+	[
+		"PAUL1 voted K500 but PAUL voted k1000 as option 2 for delegators"
+	],
+	[
+		"For the decentralisation of Cardano"
+	],
+	[
+		"Decentralize or Bust!"
+	],
+	[
+		"We're Cardano, & if you'll permit us,we'd like to chnge the wrld"
+	],
+	[
+		"FLOW belives this is best for decentralization",
+		"Go with the FLOW!"
+	],
+	[
+		"The results of this poll can't be actionable as suggested for",
+		"Q3 2023 because all contemporary parameter options weren't",
+		"offered as choices.  See CIP-0023 and Minimum VARIABLE Fee.",
+		"There need to be two more options like the following:",
+		"",
+		"X. K=500 and replace minPoolCost with minVariableFee of 5%.",
+		"Y. K=1000 and replace minPoolCost with minVariableFee of 5%.",
+		"",
+		"I would prefer Option Y, but the most important feature",
+		"is minVariableFee if you really want to run a fair poll.",
+		"Protocol support of Minimum VARIABLE Fee is 2 years overdue.",
+		"There is no point squabbling over big vs. small pool agendas",
+		"until this deficiency is fixed, which will decentralise stake",
+		"and future-proof the protocol against asset value fluctuations.",
+		"",
+		"For more details and discussion online:",
+		"https://forum.cardano.org/t/",
+		"entering-voltaire-poll-experiment-live-on-mainnet/117879/6"
+	],
+	[
+		"Stronter Together"
+	],
+	[
+		"I would prefer k = 500.",
+		"Increasing k in the current situation may ",
+		"encourage delegation concentration to the MPO.",
+		"It should not be implemented ",
+		"until measures to curb multi pools are in place.",
+		"The high min cost is an inflexible factor ",
+		"in setting fees for small pools and should be lowered.",
+		"However, it should be lowered 「step by step」",
+		" because the impact is not known.",
+		"It is dangerous to cut it in half all at once. Therefore,",
+		"I chose 「None」 instead of the four options provided.",
+		"↓Here is a tweet that summarizes my thoughts.(in Japanese)",
+		" https://twitter.com/sakakibara1JPN/status/1658900707179888640 ",
+		"By the way, I disagree with using the results of this survey",
+		" as a reference for determining parameters.",
+		"There are many problems with choosing ",
+		"from four options for changing two parameters, ",
+		"as it is rough and does not accurately",
+		" reflect each individual's thoughts in the results."
+	],
+	[
+		"Honoring results of NEWM discord poll."
+	],
+	[
+		"My wish is for all SPOs",
+		"Single and Multi pool",
+		"to remember we are working together",
+		"to make Cardano the best that it can be",
+		"the best blockchain in the world",
+		"So that we can solve the problems we came to solve",
+		"While we compete with each other",
+		"we also support each other in being the best we can be",
+		"That is how we climb this mountain",
+		"That is how we win",
+		"Brothers and sisters in arms",
+		"Together we GROW"
+	],
+	[
+		"Meow"
+	],
+	[
+		"The opportunity window for K-1000 (in one go) closed long ago.",
+		"Stagnant stake could cause long-term saturation in old pools,",
+		"leading to lost rewards for inactive users,",
+		"and hurting pool statistics. ",
+		"K needs a gradual increase.",
+		"",
+		"Lowering MinPoolCost requires raising MinMargin.",
+		"A 0-0 fee possibility would undermine the network."
+	],
+	[
+		"Though I would prefer minfee=0 I voice my desired direction",
+		"K only serves to regulate hardware needed per minfee rewards",
+		"and to trigger movement of stake unless minfee=0.",
+		"I vote for K=1000 to trigger stake movement and increase cost",
+		"for multi-pool operations. However minor that may be.",
+		"Remember SPOs can always set higher fees if needed.",
+		"It is up to the community to decide if they will support them.",
+		"a0 should not be excluded from the discussion/vote…",
+		"I am excited for the future of Cardano and its Governance!",
+		"This is the Way!",
+		"KOALA_Steve"
+	],
+	[
+		"without decentralisation crypto is a slow database"
+	],
+	[
+		"Gradually increase k like 10/month until big pools start split",
+		"To avoid for big pool to sudden saturation"
+	],
+	[
+		"a. The Treasury is still siphoning off a real 40% of epoch",
+		"rewards despite the official 20%. Treasury taxation needs",
+		"to be set to a real 20-25% that eventually will allow to a",
+		"slightly increase of inflation, therefore of stake rewards",
+		"b. Pledge influence should be leveraged, the skin is still",
+		"out the game",
+		"c. Min fees are necessary, we are for a min margin fee in %"
+	],
+	[
+		"CTEC Stake Pool Contributes to the Cardano Blockchain."
+	],
+	[
+		"Before changing min pool costs and k,",
+		"need measures to move delegation to smaller pools."
+	],
+	[
+		"CTEC Stake Pool Contributes to the Cardano Blockchain."
+	],
+	[
+		"I abstain from this vote requesting a minMargin of 5%",
+		"this will allow established pools to be profitable",
+		"with well provisioned enviroments",
+		"while making the landscape competitive for smaller pools",
+		"after the underline incentives are fixed",
+		"We can justify the impact to saturated pools"
+	],
+	[
+		"Cardano going for #1"
+	],
+	[
+		"None of the given options help towards real decentralization."
+	],
+	[
+		"Restrictions on operating multiple pools are also necessary"
+	],
+	[
+		"before changing any parameter we should",
+		"fix pledge influence "
+	],
+	[
+		"Decentralization,",
+		"Bits and bytes break free, dancing,",
+		"Power's disco time."
+	],
+	[
+		"Supporting decentralization and Single SPO sustainability."
+	],
+	[
+		"k - has a chance to create a more diverse staking environment.",
+		"minfee - should be acceptable by the time it's implemented."
+	],
+	[
+		"Kaizen Crypto team has voted to increase K to 1000 and keep",
+		"the min fee at 340. In our opinion, reducing the min fee to",
+		"170 will actually hurt small pools. A small pool that mints",
+		"a block every so often relies on the 340 ADA fee in order",
+		"to pay for operational expenses, marketing, and their time.",
+		"By reducing this income, small pools will see that their",
+		"efforts to maintain their stake pool might not be worth the",
+		"costs involved. This could in turn hurt decentralization.",
+		"With a K increase to 1000, small SPOs will see that the",
+		"required active stake to mint a block is reduced by half",
+		"the current amount, and find it more practical to maintain",
+		"their operations."
+	],
+	[
+		"Make the min Fee 0 - the only fair way"
+	],
+	[
+		"Epstein didn't kill himself"
+	],
+	[
+		"Propose a fixed Vairable fee 0.05 will benefit all SPO"
+	],
+	[
+		"To preserve my operations and efforts as a small stake pool",
+		"and ensure continuity"
+	],
+	[
+		"Support Single Pool Operators!"
+	],
+	[
+		"GO SPO"
+	],
+	[
+		"I think that measures for multiple pools are also necessary."
+	],
+	[
+		"Seek true decentralization."
+	],
+	[
+		"We, LSS, surveyed our delegators' sentiment on this topic",
+		"via several conversations and polls across multiple platforms",
+		"including Twitter, Telegram and Line."
+	],
+	[
+		"The reason why I chose to vote ",
+		"this time may be reviewed again in the future.",
+		"Possibility of increasing delegation",
+		"for pools with low delegation.",
+		"It could reduce the cost of running the pool."
+	],
+	[
+		"Nimuë believes that raising k to 1000 will shift delegation",
+		"to more stake pools and will benefit decentralization.",
+		"She’s also in favor of lowering the minimum fixed fee",
+		"and would like to see a minimum margin instead.",
+		"This will give stake pools a chance to be competitive",
+		"and grow naturally while still collecting enough rewards",
+		"to maintain the stake pool and be profitable.",
+		"The change in minimum fees should happen a couple of epochs",
+		"before the change in k, so delegators can move wisely.",
+		"Hopefully more stake will flow to highly pledged single pools",
+		"like Nimuë, which would benefit the Cardano Network."
+	],
+	[
+		"複数プール抑止対策をセットにして欲しい"
+	],
+	[
+		"There should be a minMargin % fee, 0 minFee  and K1000,",
+		" but that option is not available in this poll ",
+		" and for fear of no change have voted with ",
+		" the only fair available remaining option.,"
+	],
+	[
+		"None of the presented options provide",
+		"a path to a free market ecosystem.",
+		"minPoolCost to 0 Ada, minMarginFee to ~5%"
+	],
+	[
+		"EASY1 Stake Pool believes that K param should change only ",
+		"when a0 will be revised. ",
+		"As currently defined, pledge leverage, doesn't really work.",
+		" Full article https://bit.ly/3WdwNDo"
+	],
+	[
+		"Voted in respect of our internal Delegator-Poll",
+		"Also, minPoolCost should be removed in favor of",
+		"a new minMargin parameter. There is no incentive for larger",
+		"Pools to not split up and double there Pool-Counts.",
+		"a0, tau should be adjusted too with k.",
+		"This choice is our common detonator here currently."
+	],
+	[
+		"BCSH pools are already configured for k=1000. Delegators will",
+		"get slightly higher rewards if k is increased. Voting 340 minFee",
+		"just because minMargin is not an option and pool ops",
+		"should be professionals not hobbyists."
+	],
+	[
+		"https://twitter.com/Ada4goodP/status/1657808182712979462?s=20"
+	],
+	[
+		"bit.ly/0094-poll-1"
+	],
+	[
+		"https://twitter.com/HAMDAStakePool/status/1661289611405017089"
+	],
+	[
+		"https://nori-crypto.github.io/1step_cip-0094/412-96861fe7/",
+		"Please visit the URL for details."
+	],
+	[
+		"See this:",
+		"twitter.com/OystrPool/status/1660989518567071744"
+	],
+	[
+		"The reasons are described below.",
+		"https://twitter.com/AichiStakePool/status/1661077095370616832"
+	],
+	[
+		"Please refer to the following URL article",
+		"for the reasons for voting.",
+		"投票理由は以下のURL記事をご参照ください",
+		"https://xstakepool.com/cardano-spo-poll-2023/"
+	],
+	[
+		"投票理由及びNAPの考え方については",
+		"以下をご参照願います。",
+		"https://publickey.co.jp/files/spopoll.pdf"
+	],
+	[
+		"For more information on the reasons for voting,",
+		"please read the following article.",
+		"https://sipo.tokyo/?p=28214"
+	]
+]
